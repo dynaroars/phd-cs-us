@@ -2473,17 +2473,17 @@ Finally, profs. are busy (@sec:busy), so don't take it personally if you don't g
 
 ==== Interpreting Response <sec:interpreting-response>
 
-Even if you avoid the kiss of death emails (@sec:kiss-of-death-emails), you might still not get a reply. There are many reasons why you might not get a positive reply, e.g., the prof. is not interested, they are too busy (@sec:busy), they are not taking students, they are on vacation, etc. Here are some common responses and what they mean:
+Even if you avoid the kiss of death emails (@sec:kiss-of-death-emails), you might still not get a reply. There are many reasons why you might not get a positive reply, e.g., the prof. is not interested, they are too busy (@sec:busy), they are not taking students, etc. Here are some common responses and what they mean:
 
 - *No reply.* This is by far the most common response (see why in @sec:busy). It means they are not interested. You might try again in a few weeks or months, but don't expect a reply. And after a couple of tries, you should move on.
 
-- *Not taking students but encourage you to apply.* Polite way of saying not interested and referring you to the admission process. Note that this _does not_ in any way mean that they think you have a good chance of getting admitted.
+- *Not taking students but encourage you to apply or just encourage you to apply in general* Polite way of saying not interested and referring you to the admission process. Note that this _does not_ in any way mean that they think you have a good chance of getting admitted.
 
-- *Not taking students this year (but encourage you to apply next year).* Polite but generic response. Like the previous one, encouragement to apply does not mean they think you have a good chance of getting admitted.
-
-- *Come talk to me after you're admitted.* Generic. Refer you to the admission process. But if you get admitted then you can reply to them and say you're admitted and would like to talk.
+- *Not taking students this year (but encourage you to check with them for next year).* Polite but generic response. Like the previous one, encouragement to apply does not mean they think you have a good chance of getting admitted.
 
 - *Cannot admit you directly. Need to go through admission process.* Generic. They are not interested and refer you to the admission process.
+
+- *Come talk to me after you're admitted.* Generic. Refer you to the admission process. But if you get admitted then you can reply to them and say you're admitted and would like to talk.
 
 - *I am not taking students but I co-advise/can serve on your committee.* While this might sound good, it's still generic because it says _once you're admitted and have an advisor_, then contact me again.
 
