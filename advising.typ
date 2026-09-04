@@ -71,7 +71,7 @@
   See the #link("https://roars.dev#people")[Roars People section] for current undergrad members.
 
 == How many students are in the group?
-  Check out the #link("https://roars.dev#people")[Roars People section]. Typically we have around 5 PhD students and a couple of undergrads.  We have yet to have a postdoc, but my students collaborate with postdocs at other institutions, e.g., Hai works with Thanh Le at  NICT (Japan) and Guolong with Chanh Le.  We call our collaborators "honorary" lab members and they are very much part of our lab family.
+  Check out the #link("https://roars.dev#people")[Roars People section]. Typically we have around 4--5 PhD students and a couple of undergrads.  We have yet to have a postdoc, but my students collaborate with postdocs at other institutions, e.g., Hai works with Thanh Le at  NICT (Japan) and Guolong with Chanh Le.  We call our collaborators "honorary" lab members and they are very much part of our lab family.
 
 == What is the lab structure? 
 
@@ -80,34 +80,36 @@
   As examples, Didier works on Complexity analysis. KimHao worked analyzing build systems, and also complexity analysis and invariant generation. Hai works on DNN verification. Linhan works on DNN testing. Hai, Linhan, and Nguyen often talk to each other as their projects involve neural networks. Long does not work with verification but contributes ideas and expertise as he knows ML systems well. And everyone contributes to fun web apps (e.g., #link("https://cspicks.roars.dev")[CSPicks] by Azan).
 
 == Do students mostly work with senior students or directly with professor?
-  They work directly with me, but I encourage new lab members to work with senior students with similar interests.  Our lab members are very close and collaborative: they challenge each other's ideas and help each other with problems.
+  They work directly with me, but I encourage new lab members to work with senior students with similar interests.  Our lab members are very close and collaborative, and they challenge each other's ideas and help each other with problems.
 
 = Advising Style & Meetings
 
 == Does the advisor consider themselves a "hands-on" or "hands-off" advisor?
-  I am a #highlight[_hands-off_] advisor. Students who need a lot of guidance and hand-holding _will not_ enjoy working with me.
+  I am mostly a #highlight[_hands-off_] advisor. Students who need a lot of guidance and hand-holding _will not_ enjoy working with me.
   I will suggest directions and ideas, but I expect students to work independently and take ownership of their projects.
   My students---including undergrads---need to be self-motivated and take initiative.  
 
-  For new students, I provide helps with project directions and writing. As students become more senior/mature, I would gradually transition to a hands-off advisor. However, if I see new members capable of working independently from day one, I will let them do so from day one---I don't get in the way of capable students. 
+  For new students, I provide helps with project directions and writing. As students become more senior and mature, I would gradually transition to a hands-off advisor. However, if I see new members capable of working independently from day one, I will let them do so from day one---I don't get in the way of capable students. 
   Here's a real example from Discord. This was my response to a technical question from a new _undergrad_ who impressed me by building a solid prototype in their first few weeks
 
   #quote(block:true,attribution:none)[
       "I am not sure what would be best. Do what you think is best and that would be best."
   ]
 
-  However, although I am hands-off most of the time, I do step in when it's really needed. If a student is truly stuck, facing an urgent problem, or approaching a deadline, I instantly switch into a very hands-on  (or protector) mode. This only happens a small fraction of the time, but in those moments I will work closely with the student to get through the challenge.
+  However, I do step in when it's really needed. If a student is truly stuck, facing an urgent problem, or approaching a deadline, I instantly switch into a very hands-on  (or protector) mode. This only happens a small fraction of the time, but in those moments I will work closely with the student to get through the challenge.
     
   Also, as mentioned in @group, I _highly_ encourage my students to talk to other lab members for help and guidance. More experienced students can help new ones with ideas and research guidance.
 
 == How does the advisor give feedback on papers?
-   For the students' first papers, I ask for drafts and revise them iteratively with the students (e.g., through Overleaf). In some cases, I rewrite large portions of early drafts, especially the Intro and Evaluation sections.  This helps the students see how papers are written. Same thing with paper rebuttals, I will work with the students and revise the writing directly.  
+   For the students' first papers, I ask for drafts and revise them iteratively with the students (e.g., through Overleaf). In some cases, I rewrite large portions of early drafts, especially the Intro and Evaluation sections.  This helps the students see how papers are written. Same thing with paper rebuttals, I will work with new students and help them revise the writing directly.  
   
    As the students have more experience, I will let go more and more. By the time the students can write and successfully publish the paper by themselves without much revision and editing from me, then I know they are ready to graduate. This is typically how I determine #highlight[when a student is ready to graduate]: not by specific time or number of papers, but when they can write and publish top papers independently without much help from me.
 
 
 == Are there lab meetings? What are other meetings you will see your advisor in a group with other people?
-   Yes, we meet weekly in the conference room on Thursday afternoon in the CS conference room. Everyone speaks, everyone contributes, no one is silent. Typically, the students talk about what they have been doing in the past week and what they will do next week. They also talk about issues they are facing and others contribute ideas to help solve the problems.  
+   Yes, we meet weekly in the conference room on Thursday afternoon in the CS conference room. Everyone speaks, everyone contributes, no one is silent. Even the introverts in our lab are very active and engaged in our lab meetings.
+   This is because they are confident about their research and their ideas are respected by others.
+   Typically, the students talk about what they have been doing in the past week and what they will do next week. They also talk about issues they are facing and others contribute ideas to help solve the problems.  
    
    Sometimes, after status updates, a student will present their work in depth. The meeting usually lasts about 1--2 hours depending on how much we have to discuss. I am usually available after the meeting to chat with students individually if they have more questions.
 
