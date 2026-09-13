@@ -2,4 +2,4 @@
 
 Moved to:
 
-[VietProfs](https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences)
+[VietProfs](https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences&track=Tenure-line)
