@@ -617,9 +617,6 @@ Note that the assigned reviewers are the main ones deciding your application, bu
 
 After reviewers have evaluated an application, #gls("adcom chair") reviews their recommendations and asks them to resolve major disagreements. Typically, the assigned reviewers make the decision; the department chair and senior administrators do not rank individual applicants. In most cases, reviewers work independently and discuss an application only when their recommendations conflict (@sec:adcom-discuss).
 
-#caution-block[*What faculty will not tell you:* PhD admission is not a merit ranking in which the strongest applicants automatically occupy the available seats. It is a matching process constrained by faculty attention, research needs, grant funding, TA budgets, and advising capacity. The tenth-strongest applicant on paper may be admitted while the fifth-strongest is rejected because someone is prepared to advise the former and nobody can responsibly take the latter.]
-
-
 Even if all reviewers recommend acceptance, the application is not automatically accepted—especially if no faculty is willing to advise the student. For example, if the applicant is interested in a research area with no available faculty (e.g., AI/ML where faculty may already have many students), then the student will not be admitted (see more rejection reasons in @sec:why-rejected). This is increasingly common as the number of applicants grows faster than available faculty. Note that not every CS faculty can formally advise and graduate CS PhD students (@sec:faculty-types).
 
 However, if a faculty member is interested in the student and makes this known to the adcom, the student is much more likely to be admitted—even if that faculty member expects the department to provide initial GTA funding. By advocating for a student, the professor is effectively saying, _"I am willing to spend years advising this person."_ That commitment carries more weight than another small difference in GPA. This is the real benefit of contacting faculty (@sec:contact).
@@ -1076,7 +1073,7 @@ So do talk about them in your SOP (@chap:sop) and have your writers mention them
 
 While you might not have control over LORs (@chap:LOR) or where you go to school (@chap:your-school), you do have control over your #gls("SOP") or personal statement. A well-written SOP also demonstrates that you can communicate effectively, which is crucial in research and important for GTA funding (@chap:funding). Many SOP samples for CS are #link("https://cs-sop.org/")[available here].
 
-#caution-block[*What applicants get wrong:* An SOP is not an autobiography, a motivational speech, or a love letter to Computer Science. It is an argument that you are ready to become a researcher and that this department has a plausible place for you. If the statement gives me no concrete sentence I can use to advocate for you, it has failed (@sec:ievaluate).]
+#caution-block[*What applicants get wrong:* An SOP is not an autobiography, a motivational speech, or a love letter to Computer Science. It is an argument, which should be backed with concrete evidence, that you are ready to become a researcher and that this program has a plausible place for you. If the statement gives me no concrete sentence I can use to advocate for you, it has failed (@sec:ievaluate).]
 
 In your SOP, focus on research potential (@chap:research-experience) and convince reviewers through your experience, e.g., published papers (@sec:publications). Back up your claims with *concrete evidence*. For example, if you say you have teaching experience, show what you did, e.g., undergraduate TA or mentoring someone. If you say you worked on a research project, show some results, e.g., paper submitted (or even rejected), achieved certain performance improvement over the state of the art.
 
@@ -1658,7 +1655,8 @@ Various issues can raise concerns: many STEM courses with low grades or withdraw
 
 Many international students aim for very top schools such as Stanford and MIT, and #link("https://en.wikipedia.org/wiki/Ivy_League")[Ivy League schools]. Every year #link("https://www.reddit.com/r/gradadmissions/")[Reddit] and other forums have numerous students asking for evaluation of their chances of getting into these schools (the so-called #emph["chance me"] or #emph["roast my CV/profile"] posts) and then later posts on being #emph["ghosted and rejected everywhere"]. Here's my take on this (adapted from my #link("https://www.reddit.com/r/gradadmissions/comments/1fogyg5/reality_check_for_aspiring_phd_applicants_youre/")[post on Reddit]):
 
-#caution-block[*Unpopular opinion:* There is no true "safety" PhD program. A less famous department may still reject you because nobody works in your area, the relevant professor has no capacity, or the TA budget was cut (@sec:how-decisions). Build a balanced list, but do not confuse lower ranking with guaranteed admission.]
+#caution-block[There is no true "safety" PhD program. A less famous department may still reject you because nobody works in your area, the relevant professor has no capacity, or the TA budget was cut (@sec:how-decisions). Still, you should apply to a wide range of schools, including some that are less competitive, to maximize your chances of admission.
+]
 
 #strong[You are unlikely to get in these schools.] While being ambitious is good, you also need to be realistic, and the harsh reality is that it is very unlikely that you will get into MIT or Harvard unless you are very exceptional (in which case you would not be asking about your chances on Reddit).
 
