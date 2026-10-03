@@ -720,6 +720,19 @@ The CS PhD application process spans almost a full year, from the time you start
 
 #tip-block[A common mistake is starting the application process too late. As you can see, there are many things to do, and some of them do not depend on you, e.g., waiting for LORs. So _start early_ and give yourself enough time to prepare a strong application and to reduce stress.]
 
+
+== Caution: It is a lot harder to get into a CS PhD program nowadays <sec:harder-now>
+
+Getting into a CS PhD program has always and will always be competitive. However, it is now _much harder_ than it was 5 years ago, and even more so than 10 years ago. IMO, this is due to three emerging trends:
+
++ *Lack of TA resources due to low enrollment*: Students graduating without jobs in CS are now common, which discourages students from pursuing a CS degree, especially at the undergraduate and MS levels where students pay tuition and do not get funded.  This has led to an _alarming decline in enrollment_, which significantly reduces the number of TA positions available to fund PhD students.
+  
++ *More difficult to get funding for faculty*: In recent years, federal funding for research, such as from NSF or NIH, has been declining. Some areas of research are no longer deem necessary or relevant, and thus are not funded. This means that faculty have less money to fund new PhD students (e.g., as RAs). More generally, when things become uncertain, faculty are more cautious about taking on new students, especially if they are not sure whether they can fund them. 
+  
++ *AI/ML can replace students in many areas*: AI/ML is now capable of doing many tasks that students used to do, e.g., writing code, analyzing data, and even writing papers. One of the main tasks of a PhD student is to help a faculty member carry out their research ideas (e.g., implementing and evaluating them). Thus, as harsh as it sounds, if AI/ML can do that, then faculty may not invest their time and increasily scared resources in students.  This is a new trend that is likely to continue in the future---the same way with software development and many other areas. 
+
+
+
 #pagebreak()
 = Application Materials <part:application>
 
@@ -1282,28 +1295,23 @@ Having popular projects or active contributions can help you stand out (@sec:sta
 
 == Using AI and LLMs in Your Application <sec:using-ai>
 
+As AI and LLMs become more popular, many students wonder if they could use AI chatbots such as ChatGPT and Claude to help with their application materials, especially statements. In particular, they worry if the university or adcom reviewers would check and penalize them for doing so.
 
-As AI and LLMs become more popular, many students wonder if they could use AI chatbots such as ChatGPT and Claude to help with their application materials, especially statements. Of course, they worry if the university or adcom reviewers would check and penalize them for doing so.
-
-Nowadays it would be naive to tell you or any student to ignore AI (and frankly I use these tools myself extensively). So the question is not whether you can use AI, but how to use it properly.
-
-// I think it is _fine_ to use AI to help your writing, e.g., the _"proofread"_ feature in Apple's `Writing Tools` is quite useful for fixing writing issues or finding better terminologies or phrases. 
-// This can help international students who might struggle with writing English and are not familiar with the academic writing style (you see how many _"thus"_ used in this book?). 
-// In addition, asking ChatGPT or Claude to help you brainstorm ideas, organize your SOP, or edit/critique your draft is also fine. 
-//Thus, it's OK to use AI to help you but you should be the main part of the writing loop, i.e., you should be the one who writes the content and use AI to help you improve and refine it.
+*Honest take*: Nowadays it would be naïve to tell anyone, especially CS students, to ignore AI (I use these tools myself _extensively_ for everything). So the question is not whether you can use AI, but how to use it properly.
 
 
-#paragraph[How to Use AI][The key is to #highlight[use AI as an editor and brainstorming partner, not as a replacement for your own thinking]. You should write the first draft yourself, in your own words, with your own examples. Then use AI to improve that draft. If you start from a blank page and ask AI to "write me an SOP," you have already lost the one thing that makes an application stand out and become memorable---*you*.]
+#paragraph[How to Use AI][The key is to #highlight[use AI as an editor and brainstorming partner, not as a replacement for your own thinking]. For example, you should write the first draft yourself, in your own words, with your own examples. Then use AI to improve that draft. If you start from a blank page and prompt AI to _"write me an SOP for PhD CS,"_ you have already lost the one thing that makes an application stand out and become memorable---*you*.]
 
+ // Adcom members (@sec:adcom) read hundreds of essays, and AI-written SOPs have a recognizable flavor: generic enthusiasm, vague claims, flowery phrasing (_"I have always been deeply passionate about the ever-evolving landscape of..."_), and no _specific detail_ about _your_ research and story. A SOP like that is a kiss of death (@sec:kiss-of-death-sop) because it is instantly forgettable.
 
-#paragraph[Where it goes wrong][The problem is not AI itself; it is _outsourcing the thinking_. Adcom members (@sec:adcom) read hundreds of essays, and AI-written SOPs have a recognizable flavor: generic enthusiasm, vague claims, flowery phrasing (_"I have always been deeply passionate about the ever-evolving landscape of..."_), and no _specific detail_ about _your_ research and story. A SOP like that is a kiss of death (@sec:kiss-of-death-sop) because it is instantly forgettable.]
 
 //The thing that makes an SOP work---a concrete story about a project you struggled with, a specific reason you want to work with Prof. X---is exactly the thing AI cannot invent for you. If you let it, you will produce a polished essay that is instantly forgettable.]
 
 
-#paragraph[Checking for AI content][Some students worry that adcom reviewers will check their SOPs for AI content. 
+#paragraph[Checking for AI content][Students rightfully worry that adcom reviewers will check their SOPs for AI content and penalize them for using AI.
 
-Personally I _do not_ check your statements for AI contents. First, I do not have the time to do that. It is much easier for me to just read the statement and see if it makes sense and stands out (@sec:ievaluate). Hint: AI-generated content reads very strangely and faculty is just too experienced in reading essays and SOPs from students to not notice it.  In addition, AI-checking technology is very unreliable and inconsistent. For example, a checker might claim that 80% of an essay is AI-generated while another says it is 0%. So we cannot rely on these tools to determine if a statement is AI-generated or not. Finally, as mentioned, I think it is fine to use AI to help you improve your writing, so I do not see a reason to check or penalize students for using AI to help them write their SOPs.
+    Personally I _do not_ check your statements for AI contents. First, I do not have the time to do that. It is much easier for me to just read the statement and see if it makes sense and stands out (@sec:ievaluate).
+    _Hint_: Purely AI-generated content reads very strangely and faculty is just too experienced in reading essays and SOPs from students to not notice it.  In addition, AI-checking technology is very unreliable and inconsistent. For example, a checker might claim that 80% of an essay is AI-generated while another says it is 0%. So we cannot rely on these tools to determine if a statement is AI-generated or not. Finally, as mentioned, I think it is fine to use AI to help you improve your writing, so I do not see a reason to check or penalize students for using AI to help them write their SOPs.
 ]
 
 
