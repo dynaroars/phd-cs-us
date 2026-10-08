@@ -495,7 +495,7 @@ Fall---the start of the #gls("AY")---is the most common time to begin PhD progra
 However, many universities also accept PhD students in the Spring or Summer, especially when you have a specific advisor who can fund you through an RAship (@sec:ra). This is less common, and you may lose funding opportunities that are available only for Fall admits.
 
 #example-box[
-  GMU allows PhD students to start in the Spring, but it is usually not recommended. Two of my PhD students started in the Spring because I had funding to support them right away. Students who do not start in the Fall may also lose benefits reserved for Fall admits, such as a first-summer stipend. So, it is possible, but I do not recommend aiming for it.
+  GMU allows PhD students to start in the Spring, but it is usually not recommended. Two of my PhD students started in the Spring because I had funding to support them right away. In general, a student can start in the Spring or even Summer only if an advisor already has RA funding for them. Students who do not start in the Fall may also lose benefits reserved for Fall admits, such as a first-summer stipend. So, it is possible, but I do not recommend aiming for it.
 ]
 
 
@@ -529,7 +529,7 @@ text(size: 0.9em,
 
 - *Project proposal*: In many countries, you have to choose a project and advisor _during_ the application process (e.g., you write a proposal to a potential advisor). But this allows you to start your research right from the beginning. In the US, you often start your PhD without an advisor or project and find them later. Usually you have two initial years to take classes, explore and find an advisor and research topic.
     
-- *Coursework*: In the US you will spend the first couple of years taking classes. After that, you have to pass a series of exams during your PhD---qualifying exam, comprehensive exam, thesis proposal defense (#gls("ABD")). In other countries, you often start your research right away and work on the research project you proposed with the advisor you chose. Moreover, you might not have exams like those in the US or only have to do a few of them.
+- *Coursework*: In the US you will spend the first couple of years taking classes and exploring potential advisor and research topics. After that, you have to pass a series of exams during your PhD---qualifying exam, comprehensive exam, thesis proposal defense (#gls("ABD")). In other countries, you often start your research right away and work on the research project you proposed with the advisor you chose. Moreover, you might not have exams like those in the US or only have to do a few of them.
     
 - *Funding*: In many countries, funding often comes from the university or the government. This funding often has a fixed duration, e.g., 3 or 4 years. In the US (@chap:funding), funding such as GRA comes directly from your advisor (no fixed duration). There are also fewer GTA opportunities in European universities compared to the US.
     
@@ -599,7 +599,7 @@ The size and workload of the adcom depend on the department. At GMU, the PhD adc
 
 PhD adcoms typically include assistant professors (@sec:faculty-types), partly because junior faculty need students to build their labs, produce research, and make progress toward tenure. That does not make their reviews dishonest; it means admissions is inseparable from faculty needs. The #gls("adcom chair",first:false) is usually a senior faculty member who assigns applications based on research interests or faculty mentioned by applicants (e.g., I review SE applicants).
 
-The assigned #gls("adcom members",first: false) independently evaluate your profile and then reach a consensus. They consider factors such as #glspl("LOR"), #gls("SOP"), research experience, GPA, test scores, and interviews. (see @part:application).
+Each application is assigned to about three #gls("adcom members",first: false), who independently evaluate your profile and then reach a consensus. They consider factors such as #glspl("LOR"), #gls("SOP"), research experience, GPA, test scores, and interviews. (see @part:application).
 
 #example-box[
   At GMU, we usually admit full-time PhD candidates with funding (@chap:funding) or reject them. In rare cases, we admit without funding if the student has external support (e.g., government or fellowship). We justify our decision (@sec:ievaluate) with a summary of your application, listing strengths (e.g., well-known school) and weaknesses (e.g., generic LORs).
@@ -631,7 +631,8 @@ If the student mentions a faculty member in their SOP, adcom may ask that facult
 
 We typically review applications independently and do not talk to each other.  This is to avoid biasing, e.g., if one reviewer says they want to accept, the other might feel pressured to accept as well.  
 
-However, when there are discrepancies in evaluations, #gls("adcom chair") will ask reviewers to discuss the application to reach a consensus.  We might also talk to each other for interesting or strong applications, e.g., how to recruit this student or who should be the advisor.
+However, when there are discrepancies in evaluations, #gls("adcom chair") will ask reviewers to discuss the application to reach a consensus.  We might also talk to each other for interesting or strong applications, e.g., how to recruit this student or who should be the advisor. 
+If the student mentioned a faculty member in their SOP, we might ask that faculty if they are interested in the student. 
 
 
 Note that other disciplines might have different practices. For example, adcom might select a top list of applicants and then discuss them in a meeting to determine who to interview. @fig:adcom-discuss-physics shows an example of how a PhD admission committee in Physics evaluates applications. Note that this is not common in CS, where we typically do not have a grading rubric and do not discuss applications in a meeting.
@@ -679,7 +680,7 @@ The short answer is that _all_ applications go through the adcom committee. Howe
 
 
 
-Thus, it comes down to who can advocate for you in the review process (@sec:how-decisions). This is the reason why contacting faculty (@sec:contact) and mentioning faculty in your SOP (@chap:sop) can be very helpful, as it can lead to a faculty member supporting your application.
+Thus, it comes down to who can advocate for you in the review process. This is the reason why contacting faculty (@sec:contact) and mentioning faculty in your SOP (@chap:sop) can be very helpful, as it can lead to a faculty member supporting your application. However, even if a faculty member is interested in you, the final decision is still made by the committee.
 
 
 
@@ -890,7 +891,7 @@ You can also provide them with a draft of your SOP so that they can see what you
 
 Sometimes your writer will explicitly ask you for such information, but if not, you should provide it anyway (especially if you have not interacted with them much or have not done much research with them).
 
-#tip-block[If your grading system is not standard in the US, or you are from a good school that is unknown outside your country, you can ask your reference writers to explain that in their letters (@chap:your-school).
+#tip-block[If your grading system is not standard in the US, or you are from a good school that is unknown outside your country, you can ask your reference writers to explain that in their letters. For example, the _Bach Khoa_ schools are among the top universities in Vietnam for STEM studies, but few people outside Vietnam know about them. So if you are from one, you should ask your reference writers to mention that.
 ]
 
 ==== Reminding Your Writers <sec:remind-writers>
@@ -1046,7 +1047,7 @@ While not as strong as CS publications, they still show your research ability an
 === What If You Don't Have Any Publications?
 
 Many students do not have the opportunity to publish papers. Thus, other writings, even those under submission or even rejected, would still help. 
-Be sure to upload these with your application (@sec:writing-sample) and mention them in your SOP (@chap:sop).
+Be sure to upload these with your application (@sec:writing-sample) and mention them in your SOP (@chap:sop). Adcom members can quickly skim over the paper and determine its quality (@sec:ievaluate).
 
 Note that local conferences and non-English journals or conferences do not carry as much weight since their quality is often unknown. However, if you have published in such places, you should still upload them as writing samples, mention them in your statement, and explain why they are good.
 
@@ -1218,7 +1219,7 @@ Should you explain bad grades in relevant courses in your SOP? If you have just 
 
 === GREs Are Optional and Do Not Matter for PhD Admissions <sec:gre>
 
-While a few schools still require taking the #link("https://www.ets.org/gre")[GRE] exam (e.g., UCF), most good CS PhD programs in the US #highlight[do not require it]---the #link("https://www.science.org/content/article/gre-exit-gains-momentum-ph-d-programs-drop-exam-requirement-amid-pandemic")["GRExit"] trend. The reason is that GRE scores do not correlate well with research ability (@chap:research-experience), which is the most important factor for PhD admission.
+While a few schools still require taking the #link("https://www.ets.org/gre")[GRE] exam (e.g., UCF), most good CS PhD programs in the US #highlight[do not require it]---the #link("https://www.science.org/content/article/gre-exit-gains-momentum-ph-d-programs-drop-exam-requirement-amid-pandemic")["GRExit"] trend. The reason is that GRE scores do not correlate well with research ability (@chap:research-experience), which is the most important factor for PhD admission. Note that many faculty members themselves did not take the GRE or had bad scores.
 
 Thus, if you have bad GRE scores or haven't taken the GRE, then don't _waste time_ (re)taking it. Being optional really means optional, and not taking it will not hurt your application.
 However, if you took it and have really good scores then it might be worth it to include (and perhaps talk about) them in your application, but don't expect them to make much difference. But if your scores are bad, then you should not include them in your application, which can be a #alert[red flag].
@@ -1350,7 +1351,7 @@ Do not be surprised if you get an interview invitation at the last minute. Some 
 Some programs _do not do interviews_ at all (@sec:no-interview). They review applications and make decisions based on them.  If you do not get an interview, it does not mean you're out.
 
 #note-block[
-    At GMU, faculty are encouraged to interview candidates. While we can interview as many as we want, we typically interview those we are interested in working with.
+    At GMU, faculty are encouraged to interview candidates. While we can interview as many as we want, we typically interview those we are interested in working with. In some cases, several faculty members interview a candidate together to evaluate if they fit well in their research group. For very strong candidates, the interview is actually to recruit them.  
     In some rare cases, the adcom chair might ask specific adcom member or faculty to interview certain candidates to get more information about them for admission.
         
     In short, getting an interview is a good sign; it means that someone is considering you. If we are not interested in your application, we will not waste our (and your) time interviewing you.
@@ -1412,7 +1413,7 @@ Also, do not feel embarrassed or discouraged if you are on the waitlist. Many st
 
 #paragraph[Rejection Letters][Schools typically start sending out rejection letters to remaining applicants _after they have finalized their admissions decisions_. Thus, rejection letters are often sent out late (e.g., after #gls("April 15") or even much later). 
 
-Not much you can do here. In short, you just have to be patient and wait, and also beware that some schools do not send out rejection letters at all.]
+Not much you can do here. You can try to contact the school to ask about your status, but they might not reply, they might say they are still reviewing applications, or give you inaccurate information (e.g., you will hear in two weeks). In short, you just have to be patient and wait, and also beware that some schools do not send out rejection letters at all.]
 
 // % \section{Preparing and Tracking Applications}
 
@@ -1533,7 +1534,7 @@ Typically, the most wiggle room is funding in the summer (@sec:summer-funding) w
 
 For a specific start date or GTA assignment (e.g., TA'ing a particular course), you can ask for it. Also, there is typically no moving allowance for PhD students. In short, standard things set by the university or department are unlikely negotiable. However, you can ask for things such as books and computer equipment (@sec:buying-equipment).
 
-#caution-block[*My decision rule:* #highlight[Don't try to negotiate a standard TA/RA offer merely because career websites say you should negotiate everything.] You will likely not change a centrally determined stipend, and you risk signaling that you misunderstand how PhD funding works. Negotiation is normal for many jobs; it is not automatically useful in CS PhD admissions.]
+#caution-block[*My decision rule:* #highlight[Don't try to negotiate a standard TA/RA offer merely because career websites say you should negotiate everything.] You will likely not change a centrally determined stipend, and you risk signaling that you misunderstand how PhD funding works. Ask informed questions about summer support, equipment, start dates, and funding duration instead. Negotiation is normal for many jobs; it is not automatically useful in CS PhD admissions.]
 
 === Buying Computer Equipment <sec:buying-equipment>
 //\sectioninfo{Ask your prof. if they can buy computer equipment and such for your research.}
@@ -1899,13 +1900,13 @@ In some cases, it might even be enough to support a spouse and children, though 
 For a full breakdown of how much a graduate student costs, see @sec:ra-cost.
 
 
-#tip-block[There are websites such as #link("http://www.phdstipends.com/results")[phdstipends.com] and #link("https://csstipendrankings.org/")[CS Stipend Rankings], where students report their stipends. You can use them to get an idea of how much you can expect to be paid. Treat their living-cost comparisons cautiously, however: a general household budget may assume a lifestyle or household composition that does not match yours. Use the figures as a starting point and make your own budget based on rent, transportation, dependents, and other actual expenses.
+#tip-block[There are websites such as #link("http://www.phdstipends.com/results")[phdstipends.com] and #link("https://csstipendrankings.org/")[CS Stipend Rankings], where students report their stipends. You can use them to get an idea of how much you can expect to be paid. Treat their living-cost comparisons cautiously, however: a general household budget may assume a lifestyle or household composition that does not match yours. For example, directly comparing GMU's roughly \$40K stipend with a \$75K Fairfax living-cost estimate suggests a \$35K annual deficit, but that comparison does not account for common graduate-student choices such as shared housing. Use the figures as a starting point and make your own budget based on rent, transportation, dependents, and other actual expenses.
 ]
 
 === How Much Do YOU Cost? <sec:ra-cost>
 // \subsectioninfo{Your entire PhD program costs about \$400K in total, but you \emph{do not} pay for it.}
 
-PhD students might wonder why their #gls("stipend") is low compared to the large grants their advisors get. They also wonder why their offer letters sometimes show that their benefits are higher than what they receive as stipend (e.g., your financial assistance says you get a package of \$60K, but your stipend is only \$30K).  The reason is that the cost of supporting a PhD student is much higher than just their stipend.  In fact, the total cost of supporting a PhD student can be around \$70K per year, which includes not only the stipend but also tuition, health insurance, and other expenses.
+PhD students might wonder why their #gls("stipend") is low compared to the large grants their advisors get. They also wonder why their offer letters sometimes show that their benefits are higher than what they receive as stipend (e.g., your financial assistance says you get a package of \$60K, but your stipend is only \$30K).  The reason is that the cost of supporting a PhD student is much higher than just their stipend.  In fact, the total cost of supporting a PhD student can be around \$70K per year, which includes not only the stipend but also tuition, health insurance, and other expenses. Over the course of a 5-6 year PhD program, this can add up to around \$400K.
 
 // #draftbanner(note: "This image (files/c6.png) is the SAME LOR comic used at the start of @chap:LOR (fig:lor-comic), and it looks misplaced here in the cost section---it has nothing to do with PhD cost. May be I mean a different cartoon?")
 
@@ -1999,7 +2000,7 @@ You will be very surprised to learn that a school that you didn't know much abou
 
 You should also consider other factors that matter to you. You might prefer schools that give stable funding (@chap:funding) and good stipend (@sec:ra-cost). You might like areas with a large community from your country---Northern Virginia, for example, is very diverse and has a large population of Vietnamese. You might want to be near high-tech industrial hubs like Seattle or Silicon Valley, or places with plenty of outdoor activities such as hiking and skiing. Weather can also be important---_"PhD can be depressing, so would you rather be depressed in California or New York?"_. Finally, don't forget about things like cost of living---certain areas in California and New York are way more expensive than in Nebraska. Safety is another factor; however, while some universities might be in a high-crime city, the campus itself is very safe---like John Hopkins in Baltimore.
 
-If you get admission to several places, you should consider attending Open Houses and contact profs. that you're interested in at those places and talk to them (@sec:visit-days).
+If you get admission to several places, you should consider attending Open Houses (@chap:accepted) and contact profs. that you're interested in at those places and talk to them. They would be more willing to chat with you now that you have been admitted. Ask questions about #link("https://roars.dev/phd-cs-us/advising.pdf")[their advising style], how they manage their lab, and their expectations. You can even ask to contact their students.
 
 #example-box[*Xiaokuan*:
   Chinese students often only look at US News rankings when selecting their PhD universities (I did that, too, when I was applying for PhD positions).
@@ -2059,6 +2060,7 @@ That said, an advantage of being at a small program is that you can easily stand
 You *do not* need to do a PhD in CS to do research in CS. For example, in addition to a traditional CS department, GMU has IST and Cybersecurity departments, both of which have faculty with PhD in CS and work on CS topics (e.g., AI, Security, Robotics). So you still can do CS research and publish in CS-focused venues even if you're not in a traditional CS program. It is common to see faculty with PhD in CS in a non-CS department as well as faculty with non-CS PhD in a CS department.
 
 However, if your goal is a PhD in CS, then you need to be in the CS dept. _and_ advised by a CS faculty. A non-CS faculty can serve in the PhD dissertation committee (common) or _co-advise_ (less common, but possible) PhD students in CS, but your main PhD #gls("advisor") will likely be a tenure-line faculty in CS (@sec:faculty-types).
+For example, a prof. in Stats or Math might be able to serve as a co-advisor, but not as a sole advisor of a student in a CS PhD program.
 If in doubt, check with the CS dept. for their requirements.
 
 It is possible to transfer between departments (and universities). However, this can be complicated and often requires re-applying to the new department and taking additional coursework or exams required by the new place. Moreover, your advisor may not be able to supervise you in the new department (they can co-advise or serve on the committee, but unlikely are allowed by the new department to be your main advisor). Usually, transfers happen because the current advisor moves to a new department or university, and the student wants to stay with them.
@@ -2811,6 +2813,8 @@ While both MS and PhD programs are graduate degrees, they are _very different_ i
 
 == Differences between PhD and MS <sec:phd-vs-ms>
 
+#definition-box[MS vs. PhD][An MS is a #highlight[coursework degree]: typically 2 years, usually _not_ funded (@sec:ms-funding), and prepares you for industry. A PhD is a #highlight[research degree]: 5--7 years, funded (@chap:funding), and prepares you for research careers (@sec:worth-it).]
+
 #figure(
   caption: [MS vs. PhD],
   table(
@@ -2839,7 +2843,7 @@ While both MS and PhD programs are graduate degrees, they are _very different_ i
 
 - *Course requirements:* MS has a specific number of courses that typically can be done in 2 years. You graduate with an MS when you're done with the courses. PhD also has coursework requirements, which are typically taken in your first 2 years (@sec:time). However, after (and also during) coursework, you focus mainly on research. You graduate with a PhD when you have done enough research and written a dissertation, which usually takes much longer time than coursework.
 
-- *Duration:* an MS typically takes 2 years while a PhD takes 5--7 years (or even longer). Many students get an MS along the way to a PhD (@sec:msrequirement).
+- *Duration:* an MS typically takes 2 years while a PhD takes 5--7 years (or even longer). Many students get an MS along the way to a PhD, e.g., after finishing the 2-year course work.
 
 - *Advisor:* MS students typically do not have an advisor (if you do thesis option then you will have one), while PhD students need an advisor who guides them in their research.
 
@@ -2919,7 +2923,7 @@ Because of the differences between MS and PhD programs (@sec:phd-vs-ms), you sho
   image("files/phd100404s.png", width: 70%),
   caption: [Source: #link("https://phdcomics.com")[PhD Comics] (© Jorge Cham).],
 )
-Research experience gives you opportunities to try out research, determine what research area you're interested in, publish papers, connect with researchers, and get strong LORs (@chap:LOR).
+Research experience gives you opportunities to try out research, determine what research area you're interested in, publish papers (@chap:research-experience), connect with researchers, and get strong LORs (@chap:LOR).
 A successful research experience also greatly strengthens a PhD application (@chap:research-experience). This section provides some guidance on how to gain research experience as an undergraduate (or MS) student or as a student at a smaller college where research opportunities might be limited.
 
 == Locally 
@@ -3111,7 +3115,7 @@ These are common pitfalls that many applicants make in their GRFP applications a
 
 - *Related Work and Challenges.* Many research plans motivate the problem well but do not discuss limitations of existing work, making it questionable if the problem is important or if you are aware of the challenges.  Thus, you should do a thorough literature review and discuss what people have done and their limitations.  Your research plan should then talk about how you plan to address these limitations, i.e., fill the gap in the literature.  
 
-- *Do not BS.* Many research plans include technical details or proposed work that are vague, unrealistic, or even impossible. This is similar to a student taking an exam and write a lot of nonsense and hope for partial credits.  As mentioned, reviewers are often chosen based on their expertise in your field and can detect B.S. Again, do your homework and ask someone who knows the field, e.g., your advisor or LOR writer, to review your research plan.
+- *Do not BS.* Many research plans include technical details or proposed work that are vague, unrealistic, or even impossible. This is similar to a student taking an exam and write a lot of nonsense and hope for partial credits.  As mentioned, reviewers are often chosen based on their expertise in your field and can detect B.S. Again, do your homework and ask someone who knows the field, e.g., your advisor or LOR writer, to review your research plan. In my experience, this seems to be more common from students at top schools and have research experience, which might make think they can BS their way through the application.
 
 - *Overexaggeration LORs.* Many GRFP applicants have ref. letters from professors that are very good at writing LORs. However, they often use flowery language and overrate their students. Reviewers can sense this overexaggeration and might not trust the LORs. This is similar to overclaiming research contributions when writing papers---so _ask your LOR writers to tone down_ their enthusiasm and be specific with concrete examples to demonstrate why you're _"the best"_.
 
@@ -3141,7 +3145,7 @@ These are some common pitfalls I see in NDSEG applications and tips to avoid the
 
 - *Customize your research to DoD* by doing some research to find specific projects from DARPA or ONR and explicitly mention them---like in the introduction or in its own section.  This is different from NSF GRFP where you want broader impacts to society.
 
-- *Unclear research plan.* You should aim to have (i) clear problem statement, (ii) why it is important (esp. to DoD), (iii) what has been done and their challenges/limitations, and (iv) what you plan to do to address the challenges.  Moreover, research is often quite technical and ambitious, so you want to show some preliminary work (@sec:grfp-pitfalls).
+- *Unclear research plan.* You should aim to have (i) clear problem statement, (ii) why it is important (esp. to DoD), (iii) what has been done and their challenges/limitations, and (iv) what you plan to do to address the challenges.  Moreover, research is often quite technical and ambitious, so you want to show some preliminary work, e.g., a small experiment by hand on some small examples, to convince reviewers that you have thought about the problem and have some initial results.
 
   Unlike GRFP where we have more contents to evaluate, in NDSEG we mainly evaluate based on personally essays and especially research plan. So you should do proper research on what you propose and make it clear and convincing.
 
@@ -3302,6 +3306,7 @@ These can be (i) lifetime achievements in the field---such as ACM or IEEE Fellow
 ==== Most Influential Paper Awards 
 
 _Most Influential Papers, Test of Time, or Impact Awards_ are given to papers that were published 10+ years ago at a top venue and made a lasting contribution to their area of research, e.g., creating a new research field. In other words, the work described in these papers has stood the _test of time_. Typically, these papers are highly cited and have inspired many follow-up works.
+Note that these paper awards are different than Distinguished or Best Paper awards, which are given at the conference and therefore might not be as well-known or influential.   
 
 Note that while typically given to senior researchers (due to the 10+ years requirement), some junior faculty have received these highly prestigious awards for their work as shown in @fig:LOR4junior. 
 
