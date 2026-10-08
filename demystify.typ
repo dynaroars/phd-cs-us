@@ -3615,7 +3615,7 @@ Sometimes foreigners are surprised by how Americans do not talk about their pers
 ]
 ]
 
-#paragraph[Healthcare System][You (and your spouse) will need health insurance! Otherwise you will be charged a lot for healthcare services when you need them. However, as mentioned in @chap:funding, your TA/RA (and fellowships) will cover health insurance. Your spouse/children often also get health insurance or significant discounts under your plan. Don't skip checkups assuming you are young and healthy---US healthcare is extremely expensive if you ever need it without coverage, and you are already paying for the insurance.
+#paragraph[Healthcare System][You (and your spouse) will need health insurance! Otherwise you will be charged a lot for healthcare services when you need them. However, as mentioned in @chap:funding, your TA/RA (and fellowships) will cover health insurance. Your spouse/children often also get health insurance or significant discounts under your plan. Don't skip checkups, even if you are young and healthy---US healthcare is extremely expensive if you ever need it without coverage, and you are already paying for the insurance.
 
 Note that even with insurance, healthcare services might still be expensive. You should know what your insurance covers and be prepared for unexpected costs. Moreover, the healthcare system has many confusing terms, such as HMO, PPO, deductibles, co-pays, and coinsurance (take a look at the Explanation of Benefits, or EOB, statement you receive from your insurance company). It's arguably the most complicated system in the US, and even Americans often do not understand it (and politicians often exploit this to their advantage). Do not hesitate to ask your HR office or insurance company for help.]
 
@@ -3828,7 +3828,7 @@ More details and justification for this metric can be found in the #link("https:
 
 I am also a member of the VietPhD group on Facebook and often browse forums like #link("https://www.reddit.com/r/gradadmissions/")[Reddit/gradadmissions] and #link("https://forum.thegradcafe.com/")[GradCafe]. I saw many questions from students about PhD programs, but most participants are students (often outside CS or outside the US), and answers are frequently inaccurate and confusing. So I thought a comprehensive guide focused on US CS PhD admissions from an insider perspective would be useful.
 
-I started writing this book in May 2023 and have updated it since then (mostly around deadline when I procrastinate—#highlight[productive procrastination]).]
+I started writing this book in May 2023 and have updated it since then (mostly around deadline when I procrastinate—#highlight[productive procrastination]). The book was initially intended for international students but has expanded to include advice for domestic students (e.g., @chap:domestic-students and @chap:fellowships).]
 
 
 === Who Is This Book For?
@@ -3852,7 +3852,7 @@ My goal is thus to level the playing field by providing info that is not readily
 This book aims to be a comprehensive guide to the CS PhD admission process in the US.  It is based on my and other contributors' experiences. I try to explain _the reasons behind the admission process_.
 While there are numerous #link("https://code.roars.dev/phd-cs-us")[resources online] that tell you _"what"_ to do, few explain the _"why"_---why LORs matter so much, why you should not draft your own LOR, why you should contact professors, etc. Moreover, it aims to help _international students_ who have very different backgrounds and experiences than domestic students (e.g., asking for LORs, research experience, cultural differences, etc.)#footnote([Though of course, domestic students often face similar challenges as international students, especially those from smaller schools or underrepresented groups.]).  Understanding the reason and mindset of the adcom and profs. can help you prepare better. 
 
-This book is also a _#highlight[personal project]_ that I continuously update and refine, especially during the admission season.
+This book is also a _#highlight[personal project]_ that I continuously update and refine, especially during the admission season. I also work on it when I procrastinate from research or other tasks---it's my way of telling myself that I am still productive!
 Writing is a relaxing process for me, and I enjoy experimenting with new things in LaTeX and more recently Typst (@chap:writing-latex). Because of these reasons, this book is thus an ever-evolving project!
 
 Finally, this book is highly _opinionated_ and _subjective_, which is both a strength and a weakness (see @sec:disclaimer).
@@ -4021,7 +4021,7 @@ background is a fit for your group. Thank you for your time.
 
 == Asking for a Letter of Recommendation <sec:tmpl-lor-request>
 
-Ask _early_---at least a month before the deadline (@sec:asking-LOR)---and give the writer an easy way to say no.
+Ask _early_---at least 3--4 weeks before the deadline (@sec:asking-LOR)---and give the writer an easy way to say no.
 
 ```
 Subject: Request for a recommendation letter for PhD applications
