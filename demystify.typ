@@ -3458,12 +3458,13 @@ This is completely normal. Your advisor might disagree with you, and you might a
 
 Of course, there is a difference between disagreeing and being rude. _"I don't think this works because ..."_ is fine. _"This makes no sense"_ is probably not a good way to talk to anyone.
 
-In fact, I generally like it when my students challenge my ideas because it shows that they are thinking independently instead of just doing whatever I tell them.
+In fact, I generally like it when my students challenge my ideas because it shows that they are thinking independently instead of just doing whatever I tell them. This is also part of why "fit" with an advisor matters so much when choosing a lab (@chap:choosing-advisor)---you want someone whose style you are comfortable with.
+
 #tip-block[As you become more senior in your PhD, you should gradually move from asking _"What should I do?"_ to saying _"I think we should do X because of Y. What do you think?"_]
 
 == Be Proactive and Ask for Help <sec:be-proactive>
 
-Your prof. will not always tell you exactly what to do or constantly check whether you are OK. This can be surprising to students who are used to a more structured educational system.
+Your prof. will not always tell you exactly what to do or constantly check whether you are OK. This can be surprising to students who are used to a more structured educational system---it is one reason a good advisor-student fit matters so much (@chap:choosing-advisor).
 
 If you need something, _ask_.
 
@@ -3486,7 +3487,7 @@ This is much better than silently getting stuck.
 
 Note that this does _not_ mean you should immediately ask your advisor whenever something does not work. Try to solve the problem yourself first. Search for the answer, read the relevant papers or documentation, try a few reasonable solutions, and then explain what you tried when you ask for help.
 
-In short, being independent does not mean never asking for help. It means trying things yourself and knowing when you need help.
+In short, being independent does not mean never asking for help. It means trying things yourself and knowing when you need help. The same directness applies when reaching out to a potential advisor before you even apply (@sec:tmpl-contact-email) or when asking someone for a letter of recommendation (@sec:asking-LOR)---just say clearly what you need.
 
 == Deadlines, Meetings, and Saying No <sec:deadlines-saying-no>
 
@@ -3585,6 +3586,8 @@ Your funding (@chap:funding) covers tuition, health insurance, and a stipend, so
 #paragraph[Taxes][Yes, you pay US income tax on the taxable portion of your stipend, and as an international student your situation has extra wrinkles---tax treaties between the US and your home country may reduce what you owe. According to the #link("https://www.irs.gov/individuals/international-taxpayers/foreign-student-liability-for-social-security-and-medicare-taxes")[IRS], F-1 students are generally nonresident aliens for tax purposes during their first five calendar years, though individual circumstances vary. Most universities provide tax-filing software (e.g., Sprintax) and workshops through the international student office. Do _not_ ignore tax filing; it is required, and it matters for future visa and green-card steps (@chap:visa).]
 
 #paragraph[Banking and credit][You will arrive with _no US credit history_, which makes renting and getting a credit card harder at first. Open a US bank account early, get a basic (often secured) credit card, and use it responsibly to start building credit. This pays off later when you rent an apartment or buy a car.]
+
+#paragraph[Health insurance is included---Use it!][Your assistantship includes health insurance (@chap:funding), and it is required (@chap:cultural-misc). Don't skip checkups assuming you are young and healthy---US healthcare is extremely expensive if you ever need it without coverage, and you are already paying for the insurance.]
 
 #tip-block[Your university's _international student office_ (referred to as OIPS at GMU) is your best resource for all of this---taxes, social security numbers, banking, on-campus work rules, and visa paperwork (@chap:visa). They do this for thousands of students every year. Lean on them rather than piecing together advice from forums.]
 
