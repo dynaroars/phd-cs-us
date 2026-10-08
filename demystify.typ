@@ -461,7 +461,7 @@ For example, if you have taken a class on algorithms, even an online course from
 - *Computer OS or systems:* memory management, file systems, processes.
 ]
 
-Many universities are well aware that incoming graduate students might not have all the technical background, so they often have _“bridge”_ courses to help students catch up. For example, GMU has four bridge courses corresponding to the four core areas above that incoming students can take to catch up on their CS knowledge.
+In summary, you _do not need_ to have CS or STEM degree or even have taken formal CS courses to apply for a CS PhD. You just need to show that you have this essential knowledge, for example through the ways mentioned above. Many universities are well aware that incoming graduate students might not have all the technical background, so they often have _“bridge”_ courses to help students catch up. For example, GMU has four bridge courses corresponding to the four core areas above that incoming students can take to catch up on their CS knowledge.
 
 #example-box[
   I would advocate for a non-STEM student who shows they have a strong drive for CS by studying core CS knowledge through various channels (e.g., self-study through online courses and participating in open-source projects). 
@@ -676,6 +676,8 @@ I read strong, specific LORs carefully and skim generic ones. _"The student earn
 
 Discussions on Reddit and Discord on graduate admissions often mention _"direct admit"_---the student is "directly admitted" by an individual faculty vs _"committee admit"_---the student is admitted by the adcom committee.  Answers to these questions---often from applicants who are not familiar with the admission process---make it sound more mysterious than it actually is.
 
+#definition-box[Direct Admit vs. Committee Admit][A _direct admit_ is a student admitted largely because an individual faculty member wants to advise (and often fund) them; a _committee admit_ is admitted through the regular adcom review. In reality, _all_ applications go through the committee---a "direct admit" simply has a faculty advocate, which makes the committee much less likely to contest the decision.]
+
 The short answer is that _all_ applications go through the adcom committee. However, admission decision is _heavily influenced_ by whether an individual faculty member is interested in the student and willing to advise them, but this is still part of the committee review process. So even if a student is "directly admitted" by a faculty member, their application still likely goes through normal committee review process (though it will be _much less likely_ be contested as someone is already taking responsibility for the student), and the final decision is made by the committee based on the evaluations of all reviewers ("committee admit").
 
 
@@ -800,6 +802,8 @@ Thus it might be a good idea to directly ask if the prof. is willing to write a 
 #caution-block([
   International students sometimes mentioned that some professors are unwilling to write letters or write weak ones because they do not want (good) students to go abroad or only go to places where they want the students to go to, e.g., where they have collaborators so you would continue to work for them. 
   If you are in this situation, you should find someone else to write for you.
+
+  Sometimes students would go to great lengths just to get letters from "top" professors in their school---like department head or dean (@sec:admin-letters). But as mentioned, if these professors do not know you, their letters would likely be generic and carry little value (sometimes #alert[red flag]. Moreover, a top professor at your university might not be well-known internationally (see more details in @sec:admin-letters and @chap:your-school). So save the trouble and get letters from _any_ professors/supervisors who know you well and can write a good letter about _your_ research ability (@sec:famous-LOR). It's better to have a good personalized letter about your own research ability from someone who is less well-known than a generic and weak letter from a well-known person.
 ])
 
 
@@ -1552,7 +1556,7 @@ Finally, keep in mind that these computers and equipment would be university pro
 
 Congratulations---getting multiple offers is a wonderful problem to have. Now you have to _choose_, and this is one of the most consequential decisions of your PhD. Unlike the application stage, where the school evaluates you, this stage is the reverse: #highlight[you are evaluating them]. Most programs host an _open house_ or _visit day_ (in person or virtual) precisely to help you decide, and you should take full advantage of it.
 
-Even if you can't come in person, you should attend virtually and meet with individual faculty. During the event, you get a chance to learn more about the program, and talk to individual faculty and current students.  Take notes of faculty who make you excited, and count those taking in new students (if they meet you, likely they are considering new students!).  Ask about anything you want to determine that they deserve _you_.
+Even if you can't come in person, you should attend virtually and meet with individual faculty. During the event, you get a chance to learn more about the program, and talk to individual faculty and current students.  Take notes of faculty who make you excited, and count those taking in new students (if they meet you, likely they are considering new students!).  Talk to students about their advisors, the dept, the area, and the funding situation.  Ask about anything you want to determine that they deserve _you_.
 
 #note-block[
   GMU has _Virtual Open House (VOH)_, e.g., #link("https://cs-GMU.github.io/cs-phd-voh-s23/")[here]. We invite all admitted PhD students to the VOH through Zoom to learn about the CS program, the department, GMU, and the DC area in general. Students also get opportunities to chat with professors and current students.
