@@ -59,7 +59,7 @@ I started wanting to work on evolutionary computing, and then gradually changed 
 Outside of academia I have worked at the Naval Research Lab and Lockheed Martin.
 
 Outside of work, I have a family with three young kids.
-With my wife and I run the Chess club at my kids' elementary school (and the club consistently ranks as the top team in the county!).
+My wife and I run the Chess club at my kids' elementary school (and the club consistently ranks as the top team in the county!).
 
 You can see my [[https://raw.githubusercontent.com/dynaroars/latex-cv/main/cv.pdf][CV]] and other details from [[https://roars.dev][Roars Lab]] page and [[https://tvn.roars.dev][my homepage]].
 
@@ -75,20 +75,20 @@ I also graduated an MS student, Alex, who now works at Oracle, and an undergrad,
 :END:
 
 ** Do you work with undergraduate students?
-Yes, I work with many undergraduates over the years.
+Yes, I have worked with many undergraduates over the years.
 Typically at any time I have 2–3 undergraduates working in the lab.
 
 My undergrads are often supported either through research grants (e.g., NSF REU and university funding) or hourly pay.
 I *treat my undergrads as PhD students* by giving them flexibility to find solutions but also pushing them (/way/) beyond their comfort zone to realize their potential.
 
-As examples, Linhan started as an undergrad at UNL and continued as a PhD student GMU, KimHao published /9 papers at top conferences and journals/ as an undergrad at UNL, Stefania won the Outstanding Undergraduate Research Award at GMU, and Azan---a first year freshman when joining our lab---built [[https://cspicks.roars.dev][CSPicks]] within just a week of joining.
+As examples, Linhan started as an undergrad at UNL and continued as a PhD student at GMU, KimHao published /9 papers at top conferences and journals/ as an undergrad at UNL, Stefania won the Outstanding Undergraduate Research Award at GMU, and Azan---a first year freshman when joining our lab---built [[https://cspicks.roars.dev][CSPicks]] within just a week of joining.
 
 See the [[https://roars.dev#people][Roars People section]] for current undergrad members.
 
 ** How many students are in the group?
 Check out the [[https://roars.dev#people][Roars People section]].
 Typically we have around 4--5 PhD students and a couple of undergrads.
-We have yet to have a postdoc, but my students collaborate with postdocs at other institutions, e.g., Hai works with Thanh Le at  NICT (Japan) and Guolong with Chanh Le.
+We have yet to have a postdoc, but my students collaborate with postdocs at other institutions, e.g., Hai works with Thanh Le at NICT (Japan) and Guolong with Chanh Le.
 We call our collaborators /"honorary"/ lab members and they are very much part of our lab family.
 
 ** What is the lab structure?
@@ -98,7 +98,7 @@ However, everyone is encouraged to collaborate and help each other.
 In weekly lab meetings, you will hear about the progress of other projects and can contribute ideas.
 We also have a lab server on Discord where we chat about research and other random things.
 
-As examples, Didier works on Complexity analysis.
+As examples, Didier worked on Complexity analysis.
 KimHao worked analyzing build systems, and also complexity analysis and invariant generation.
 Hai works on neural network verification.
 Linhan works on neural network testing.
@@ -118,12 +118,12 @@ Students who need a lot of guidance and hand-holding /will not/ enjoy working wi
 I will suggest directions and ideas, but I expect students to work independently and take ownership of their projects.
 My students---including undergrads---need to be self-motivated and take initiative.
 
-For new students, I provide helps with project directions and writing.
+For new students, I provide help with project directions and writing.
 As students become more senior and mature, I would gradually transition to a hands-off advisor.
 However, if I see new members capable of working independently from day one, I will let them do so from day one---I don't get in the way of capable students.
 
 Here's a real example from Discord.
-This was my response to a technical question from a new /undergrad/ who impressed me by building a solid prototype in their first few weeks
+This was my response to a technical question from a new /undergrad/ who impressed me by building a solid prototype in their first few weeks:
 
 #+begin_quote
 "I am not sure what would be best.
@@ -131,7 +131,7 @@ Do what you think is best and that would be best."
 #+end_quote
 
 However, I do step in when it's really needed.
-If a student is truly stuck, facing an urgent problem, or approaching a deadline, I instantly switch into a very hands-on  (or protector) mode.
+If a student is truly stuck, facing an urgent problem, or approaching a deadline, I instantly switch into a very hands-on (or protector) mode.
 This only happens a small fraction of the time, but in those moments I will work closely with the student to get through the challenge.
 
 Also, as mentioned in [[#group][Group Composition & Structure]], I /highly/ encourage my students to talk to other lab members for help and guidance.
@@ -219,7 +219,7 @@ We target top-tier conferences in the field (e.g., ICSE, FSE, ASE, ISSTA, OOPSLA
 For work we wish to extend, we also publish in journals such as IEEE TSE.
 
 Ok, that was a boring neutral "academic" answer.
-The fact is that we don't just publish papers or produce boring incremental results, we focus on develop tools that actually work, win competitions, and receive awards.
+The fact is that we don't just publish papers or produce boring incremental results, we focus on developing tools that actually work, win competitions, and receive awards.
 Our competitors are the best in the world and we enjoy *beating them*.
 For example, [[https://code.roars.dev/neuralsat][NeuralSAT]] is often considered one of the best at neural network verification competition and outperforms many other state-of-the-art tools.
 
@@ -232,7 +232,7 @@ We have been quite successful in those venues as well (e.g., Highlight and Spotl
 We are working on various software analysis projects, including formalizing and proving mathematical theorems, neural network verification and inference, analysis on highly-configurable software, and program testing, analysis, and repair.
 
 Ok, cross out +program repair+ — I moved on from that.
-Nowadays I am more interested in applying formal method and program analysis techniques to  verifying and reasoning about neural networks and also using formalizing and verifying software and maths using theorem provers (e.g., Lean 4).
+Nowadays I am more interested in applying formal methods and program analysis techniques to verifying and reasoning about neural networks and also formalizing and verifying software and maths using theorem provers (e.g., Lean 4).
 
 ** In general, do you tend to give your students projects or have them select their own?
 :PROPERTIES:
@@ -242,7 +242,7 @@ Nowadays I am more interested in applying formal method and program analysis tec
 I give them research topics or directions to explore.
 For new students, usually, I give them more specific projects to start with so they can get familiar with the research area and techniques.
 As they are more familiar, they will be able to come up with their own projects.
-For example, Linhan bounces around several ideas before settling on his work on DNN benchmarking, and Hai and Long work with several students (some not even in our lab) on various projects.
+For example, Linhan bounced around several ideas before settling on his work on DNN benchmarking, and Hai and Long work with several students (some not even in our lab) on various projects.
 
 I also aim to determine what my students are good at, and help them find projects that fit them.
 This is not just for research, but also for other things.
@@ -292,7 +292,7 @@ It does not have to be accepted because the reviewing could be noisy, but it is 
 
 You can see how ROARs' students publish in the [[https://roars.dev#publications][ROARs' Publications section]].
 
-** What other expectations does the advisor have for their students: time, vacation, paper, project,experiment wise etc.?
+** What other expectations does the advisor have for their students: time, vacation, paper, project, experiment wise etc.?
 - I want you to /be independent/ and /take initiative/ in your work.
   Don't just wait for me to tell you what to do.
   If you have an idea, try it out yourself and show me the results.
@@ -311,7 +311,7 @@ It doesn't matter if /X/ or /Y/ is better, but that you believe in your idea and
 ** When have you given a letter of concern? Why?
 
 I haven't given a letter of concern yet, and I hope I never have to.
-But I'd remind and give plenty of warnings the student if they need to be on track or do not meet the expectation.
+But I would remind the student and give plenty of warnings if they need to get on track or are not meeting expectations.
 There is no surprise in my lab and you will know if you're not doing well.
 
 Here is the expected progress for my PhD student.
@@ -401,8 +401,8 @@ As mentioned, I will unlikely work on something that I am not interested in.
 So if you want to work with me, you need to be interested in [[https://roars.dev][my research areas]].
 
 ** I'm interested in working with you. Do you think I'd have a good chance of working with you if I come to your university?
-The common way for me to know you (and vice versa) is taking my classes, being stand out, and impressing me.
-I recruit several students (e.g., Linhan, Guolong, and Didier) from my classes that way.
+The common way for me to know you (and vice versa) is taking my classes, standing out, and impressing me.
+I recruited several students (e.g., Linhan, Guolong, and Didier) from my classes that way.
 
 * Co-Advising & External Collaborations
 
@@ -418,8 +418,8 @@ I prefer to work on problems in my fields of SE/PL/FM and related ones (e.g., lo
 So if you want to do interdisciplinary research in areas outside my core expertise (e.g., CS + Bio), then I may not be the best fit for you.
 While interdisciplinary work has many values (and I admire people who do it well), I have determined that it is not my strength and I prefer to focus on my core areas.
 
-If you'd like to do interdisciplinary work that I am not too interested then I would not want to be your main advisor.
-I would rather you find another faculty member who is more interested in your work and can help you with it, (e.g., the [[https://cspicks.roars.dev][CSPicks]] tool can help explore faculty interests).
+If you'd like to do interdisciplinary work that I am not too interested in, then I would not want to be your main advisor.
+I would rather you find another faculty member who is more interested in your work and can help you with it (e.g., the [[https://cspicks.roars.dev][CSPicks]] tool can help explore faculty interests).
 I think this is a better fit for both of us.
 
 ** How do you handle it when a student outgrows your expertise — they know more than you?
@@ -430,7 +430,7 @@ Depending on the projects, I may introduce you to people who are experts in that
 For example, KimHao works with Quoc-Sang at Facebook on build systems, and Hai works with Matt Dwyer at UVA on DNN verification.
 In short, if you become better than me in your area, then I've done my job and you're ready to graduate.
 
-Note that if you want to change or try another research direction that I don't have much expertise or interest in, then I can't help you much there then we may need to discuss switching advisors.
+Note that if you want to change or try another research direction that I don't have much expertise or interest in, then I can't help you much there, so we may need to discuss switching advisors.
 This is common in academia (almost happened to me during my PhD) and I have no issue with you doing that (in fact, some of my students came to me after switching from other advisors).
 
 * Lab Resources & Working Environment
@@ -463,7 +463,7 @@ In short, creativity comes from freedom and flexibility, and in this regard, I g
 
 Not sure, sometimes I see some snacks.
 When I was a grad student, I often stole pizza and food from other labs (I have plenty of stories to tell).
-I often take my groups out to eat (e.g., when working on papers, or end-of-semester gatherings, in fact, I am writing this while preparing for traditional lab Thanksgiving dinner).
+I often take my groups out to eat (e.g., when working on papers, or end-of-semester gatherings; in fact, I am writing this while preparing for traditional lab Thanksgiving dinner).
 
 More generally, we work hard but also have [[https://photos.google.com/share/AF1QipNMHIvnSmq5bjer6I6r1Ddb4yiBt3jgq4yrA7q5lSmo4ePHfmiXhXqhk8IhKf47lA?key=SkJhMjZtYmoyT1Q2aW1ERGpRa2VTclZrbzJVLUpR][lots of fun]], many of which involve eating and gathering.
 
@@ -477,7 +477,7 @@ I often send my students to the annual, week-long Formal Techniques Summer Schoo
 
 For full disclosure, I am not a big fan of attending conferences.
 I think they are useful but I am just not into traveling.
-I rather stay at home and play with my kids and work on my research.
+I would rather stay at home and play with my kids and work on my research.
 But this is just me and I wholeheartedly support my students to attend conferences.
 
 ** How many conferences are students expected to target a year? [remember pubs != submissions]
@@ -523,7 +523,7 @@ I encourage students to attend these to have fun and know other people.
 
 ** If one of your students is being treated unfairly — by a collaborator, committee member, or even within the department — how do you handle it?
 
-I am  protective of my students.
+I am protective of my students.
 I can be hard on them when they do research with me, but I will stand up for them.
 Not only obvious cases like unfair treatment but also when I feel they need support, e.g., I would shield them from being overworked or being taken advantage of by others.
 My priority is the well-being of my students.
@@ -542,12 +542,12 @@ It's usually easier for them to give up than it is for me to give up on them.
 Questions that are not categorized into the above sections but can help you understand my advising style and philosophy.
 
 ** What do you think about course work and grades when evaluating prospective PhD students? If these are not important then what do you look for instead?
-In my [[https://code.roars.dev/phd-cs-us/][PhD Admission Demystifying]] book, I emphasize that for CS PhD admission good GPA rarely matters (you can read more about that in the guideline).
-There are much more reliable indicators of a student's potential for research; LoRs and research experience and publications of course, but even small things that seemingly unrelated to research can be good indicators, e.g., the A scrapper example or someone who climbed the Himalayas!
+In my [[https://code.roars.dev/phd-cs-us/][PhD Admission Demystifying]] book, I emphasize that for CS PhD admission, a good GPA rarely matters (you can read more about that in the guideline).
+There are much more reliable indicators of a student's potential for research; LoRs and research experience and publications of course, but even small things that are seemingly unrelated to research can be good indicators, e.g., the easy-A scraper example or someone who climbed the Himalayas!
 It doesn't have to be crazy thing (though it can be), but should be something that shows the student is a self-starter, has initiative, and can get things done.
 
-[[fig:stefania][Stefania's LoR snippet]] is a snippet from a LoR I wrote for my undergrad student to nominate her for an Outstanding Undergrad award.
-At that moment, she has not done much research, but her volunteer activities show self-motivation and initiative, and that impressed me that I hired her to be my undergrad researcher and then later nominated her for the award (which she did get—Outstanding Undergraduate Researcher Award in 2025).
+[[fig:stefania][Stefania's LoR snippet]] is a snippet from a LoR I wrote for my undergrad student to nominate her for an Outstanding Undergrad Researcher award.
+At that moment, she had not done much research, but her volunteer activities showed self-motivation and initiative, which impressed me so much that I hired her to be my undergrad researcher and then later nominated her for the award (which she did get---Outstanding Undergraduate Researcher Award in 2025).
 # Note that the last sentence is a bit of self-deprecating humor: her pure altruistic work puts her in a different league, one that even NSF CAREER recipients, including myself, feel inadequate.
 # The award committee apparently agreed, as she won out of many nominees.
 
@@ -572,7 +572,7 @@ Just do enough to get by course work and focus on research.
 :CUSTOM_ID: sec:idea-safeguard
 :END:
 
-We have many ideas, so if someone wants to steal some of them, it's not a big deal, and in fact, we should be be *amused, flattered, and consider it a compliment!*
+We have many ideas, so if someone wants to steal some of them, it's not a big deal, and in fact, we should be *amused, flattered, and consider it a compliment!*
 
 Ideas are meant to be executed.
 If we fail to execute the ideas, then we are the one to be blamed, not the ones who take the ideas and execute them.
@@ -607,7 +607,7 @@ And if they completely "steal" it, we should be flattered and consider it a comp
 :CUSTOM_ID: sec:community-feedback
 :END:
 *No*, we don't send out "feelers" to see if the community likes our work.
-We  should not use the volunteering reviewers as guinea pigs to test our work (besides, the comments from a couple of reviewers do not represent the community).
+We should not use the volunteering reviewers as guinea pigs to test our work (besides, the comments from a couple of reviewers do not represent the community).
 Moreover, we don't need to send out papers just to get feedback, if we do enough homework we should have a good idea of how the community would react to our work.
 In fact, if our work is solid, we might be able to change the community's mind and get them to like it.
 So just do the work, get good results, then write and submit a good paper about it.
@@ -644,7 +644,7 @@ But the most important thing to me is to treat rebuttal as an /opportunity to im
   Moreover, while a reviewer might appear to be strongly for or against the paper, they might actually be the opposite (e.g., a champion might not actually do anything to help the paper while a defector who is open to changing their mind if we can address their concerns).
   So just address the comments with the purpose to improve the paper, and don't worry about who is a champion or a defector.
 
-In most cases, especially at top confs., papers /will/ get rejected; and in such cases we improve and resubmit and get best paper award, e.g., our compositional verification work was rejected at CAV'25 and get Research Spotlight Award at NeurIPS'25.
+In most cases, especially at top confs., papers /will/ get rejected; and in such cases we improve and resubmit and get best paper award, e.g., our compositional verification work was rejected at CAV'25 and got a Research Spotlight Award at NeurIPS'25.
 In some rare cases, however, rebuttal can actually change reviewers' mind as shown in [[fig:rebuttal][Figure: rebuttal]].
 So embrace the uncertainties of the review process; /treat rebuttal as an opportunity to improve our writing and work (think of them as "bug reports" that make your code better)/, and don't worry about the rest.
 
@@ -657,13 +657,13 @@ So embrace the uncertainties of the review process; /treat rebuttal as an opport
 I actually don't encourage my students to take courses or read many papers before they start working on their project.
 I strongly believe that the student should dig right into (existing) code, make changes, and break something.
 If it helps, reimplement it from scratch.
-I'd like you to get get frustrated with existing work and think of ways to improve it.
+I'd like you to get frustrated with existing work and think of ways to improve it.
 Reinventing the wheel is a great way to learn and understand something deeply—and understanding something deeply is the key to doing research on it.
 
 Reading papers won't reveal issues or limitations with the work, and even might demotivate the students (/"too many good work already, how do I come up with something better?"/).
 Every work has limitations, but if you understand the code very well (e.g., by reimplement it), you will find all the issues and think of ways to improve the work — that's how we come up with ideas and advance the state of the art.
 
-Not only this applies to engineering or tool building projects, but also to theoretical work—find the flaws in the proofs and theorems (like  Paul Wolfskehl), and come up with ways to fix them or create new ones (better yet, formalize the proof and check it with a proof assistant like Lean).
+Not only does this apply to engineering or tool building projects, but also to theoretical work—find the flaws in the proofs and theorems (like  Paul Wolfskehl), and come up with ways to fix them or create new ones (better yet, formalize the proof and check it with a proof assistant like Lean).
 
 Once you understand something well, then you will be motivated to read papers in the area to see what others have done and how you can improve on them.
 You also will read papers in a different way—not with the "wow" or "impostor syndrome" feeling, but with the ability to understand the work deeply, appreciate the good stuff, and identify and improve the bad stuff—usually hidden in the polished writing.
@@ -685,12 +685,20 @@ It's worth noting that I apply the same thing for the kids in my Chess club: the
 
 ** What is your stand on AI usage in research? [e.g., ChatGPT, Claude, etc.]
 
-I use AI tools /extensively/ in my research and I encourage my students to do so as well! Given the current state of AI tools, I think it is necessary to use them in research to be competitive and productive. It is also a great tool that allows us to focus on the more important and creative parts of research, rather than spending time on tedious and repetitive tasks (e.g., writing code, debugging). I have "vibe-coded" multiple projects, including [[https://cspicks.roars.dev][CSPicks]] and [[https://vietprofs.roars.dev][VietProfs]], that are useful and would not have been possible without AI tools. Thus, not only I encourage my students, I also /expect/ them to know and use AI tools to help with their research and productivity.
+I leverage AI /extensively/ in my research and I encourage my students to do so as well! It is a great tool that allows us to focus on the more important and creative parts of research, rather than spending time on tedious and repetitive tasks (e.g., writing code, debugging). I have "vibe-coded" multiple projects, including [[https://cspicks.roars.dev][CSPicks]] and [[https://vietprofs.roars.dev][VietProfs]], which would not have been possible without AI tools. Thus, not only do I encourage my students, I also expect them to know and use AI tools to help with their research and productivity.
 
-However, I expect my students to understand the work and not blindly rely on AI tools (so don't just use a couple of prompts and done). While I do not expect them to read AI generated code, I expect them to iteratively interact with AI and test the software and understand how it works (the algolrithm or technique behind the code), e.g., for *CSPicks* or *VietProfs*, it tooks me hundred of iterations to get things designed and built to my liking, and even then I still actively work on improving them and adding new features. Moreover, while I encourage them to use AI to help with writing, I expect them to actually read and understand the content and rewrite to make it "theirs" (and also to avoid the AI generic flowering writing style). 
+However, I expect my students to understand the work and be responsible for it (e.g., so don't just use a couple of prompts and done).
+I /do not/ expect them to read AI generated code, I expect them to iteratively interact with AI to understand how things work (the algorithm or technique behind the code). As an example, for *CSPicks* or *VietProfs*, it took me hundreds of iterations to get things designed and built to my liking, and even then I still actively work on improving them and adding new features.
+Furthermore, as AI often makes mistakes, but we cannot manually check all the code or proofs, we should aim to formalize our implementation and specifications and use a proof assistant like Lean to check the correctness of the code and proofs (nothing is guarantee as Lean implementation itself can be buggy, but at least it is a lot more reliable than humans or AI).
 
+Similarly, while I encourage students to use AI to help with writing, I expect them to actually read and understand the content and /rewrite/ to make it "theirs" (and also to avoid the AI generic flowering writing style).
+For my own writing,  after each paragraph drafted with AI, I put a ~sorry~ (a Lean thing indicating something is not yet fully done) to 
+remind me that I still need to work through that paragraph: reread it carefully, edit it, and usually rewrite pretty much the whole thing in my own words.
+Only after doing that do I remove the ~sorry~ for that paragraph.
 
+In short, in this era of AI, I expect my students to leverage AI to help with their research and productivity, but also to understand and own their work.
 
+Interesting, I use AI extensively these days, but at the same time try to find time to "retreat" from AI and do some "old-school" research, e.g., reading on printed papers, writing in pure Emacs without any AI assistance, and actually learning new programming languages like Lean by manually writing code and compile them.
 
 * Similar Resources
 
