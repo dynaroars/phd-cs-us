@@ -283,3 +283,21 @@ If you need more time to complete the project, you can request a no-cost extensi
 - NCE duration: typically up to 1 year, but can be shorter (e.g., 6 months) if you only need a short extension.
 - The first NCE is typically granted without much issue.  However, for the second NCE, you will need to provide a justification for why you need the extension and what you have accomplished so far. 
 - To request an NCE, first check with your institution's OSP to see if they have any specific requirements or forms that need to be filled out.
+
+
+= Notes
+
+== Terminologies:
+- *Review Writer*: you are assigned to review and write a review for this proposal.
+- *Scribe*: you are a *reviewer writer* of this proposal and you will write the *panel summary* for this proposal.
+- *Panelist*: you don't need to review this proposal, however you can (and should) participate in the panel discussion of this proposal and provide your comments and feedback to the *review writer* and *scribe*.
+
+== Checklist
+- Too much assumptions about the reviewers' knowledge
+- Lack of clear motivation or problem statement
+- Lack of convincing prior work or preliminary results or PIs' expertise in the area
+- Wall of text or tons of formulae
+- Insufficient Evaluation Plan
+- Generic Broader Impacts or Education Plan
+
+
