@@ -43,17 +43,15 @@
   
   Yes, I am tenured. If you are wondering if I will be around for a while, the answer is yes. Northern Virginia is a great place to live and work, and #link("https://realgmucs.github.io/stats")[CS\@GMU] is growing fast and getting better every year.
 
-  More importantly, having tenure allows me to take risks, pick problems I care about, and ignore the _publish-or-perish_ pressure that many non-tenured faculty face. That also means my students have to be independent and take initiative in their work because I won't be pushing them to do things (actually, regardless of tenure, I have always been a hands-off advisor and expect my students to be independent).
+  More importantly, having tenure allows me to take risks, pick research directions and problems I care about, and ignore the _publish-or-perish_ pressure that many non-tenured faculty face. That also means my students have to be independent and take initiative in their work because I won't be pushing them to do things (actually, regardless of tenure, I have always been a hands-off advisor and expect my students to be independent).
 
 == What is the professor's formal training / background / PhD?  [helps contextualize problems/approaches] 
 
-  
-  I did my undergraduate and Master's in CS at Penn State (in fact, all of my cousins went to Penn State and I have 15+ Nittany Lions in my family). I did my PhD in CS at the University of New Mexico-Albuquerque (with Stephanie Forrest and the late Deepak Kapur as my advisors)
-  and then a postdoc at the University of Maryland (#link("https://plum-umd.github.io")[PLUM lab] with Jeff Foster). I started wanting to work on evolutionary computing, and then gradually changed to software engineering and formal methods (automated reasoning). Outside of academia I have worked at the Naval Research Lab and Lockheed Martin.
+I did my undergraduate and Master's in CS at Penn State (in fact, all of my cousins went to Penn State and I have 15+ Nittany Lions in my family). I did my PhD in CS at the University of New Mexico-Albuquerque (with Stephanie Forrest and the late [Deepak Kapur](https://roars.dev/people/kapur/) as my advisors) and then a postdoc at the University of Maryland (#link("https://plum-umd.github.io")[PLUM lab] with Jeff Foster). I started wanting to work on evolutionary computing, and then gradually changed to software engineering and formal methods (automated reasoning). Outside of academia I have worked at the Naval Research Lab and Lockheed Martin.
 
-  Outside of work, I have a family with three young kids. With my wife and I run the Chess club at my kids' elementary school (and the club consistently ranks as the top team in the county!).
+Outside of work, I have a family with three young kids. My wife, who's a preK teacher, and I run the Chess club at my kids' elementary school (and the club consistently ranks as the top team in the county!).
 
-  You can see my #link("https://raw.githubusercontent.com/dynaroars/latex-cv/main/cv.pdf")[CV] and other details from #link("https://roars.dev")[Roars Lab] page and #link("https://tvn.roars.dev")[my homepage].
+  You can see my #link("https://tvn.roars.dev/cv/cv.pdf")[CV] and other details from #link("https://roars.dev")[Roars Lab] page and #link("https://tvn.roars.dev")[my homepage].
 
 == What have previous lab members done after getting their PhD? [Gone to industry?/Post-doc?/Professor?]  
 
@@ -62,7 +60,7 @@
 = Group Composition & Structure <group>
 
 == Do you work with undergraduate students?
-  Yes, I work with many undergraduates over the years. Typically at any time I have 2--3 undergraduates working in the lab.
+  Yes, I work with many undergraduates over the years. Typically at any time I have 1--2 undergraduates working in the lab.
 
   My undergrads are often supported either through research grants (e.g., NSF REU and university funding) or hourly pay. I #highlight[treat my undergrads as PhD students], give them flexibility to find solutions, and push them (_way_) beyond their comfort zone to realize their potential.
 
@@ -455,14 +453,19 @@ Not only this applies to engineering or tool building projects, but also to theo
 
     Once you understand something well, then you will be motivated to read papers in the area to see what others have done and how you can improve on them. You also will read papers in a different way---not with the "wow" or "impostor syndrome" feeling, but with the ability to understand the work deeply, appreciate the good stuff, and identify and improve the bad stuff---usually hidden in the polished writing.
 
-  
+== My stance on using AI and LLMs in research
+
+In this AI/LLM era, I am very open to using AI and LLMs in research and anything else.  I am a heavy user of LLMs (Codex, Claude Code, AntiGravity, etc) and use them to build various tools, esp. webapps including (e.g., #link("https://cspicks.roars.dev")[CSPicks], #link("https://vietprofs.roars.dev/")[Vietnamese Diaspora Academics], etc). I also use LLMs to help me write research papers and grant proposals. In fact, I integrate the writing together with prototype development, e.g., guidling LLMs to generate code from ideas, run benchmarks, and continously write and update papers (in other words, I don't write the paper AFTER the research is done, but I write it DURING the research).  However, when it comes to submission time I always heavily edit the paper (as I like my writing better than LLMs), etc.  
+
+Not only I encourage but also expect my students to use LLMs in their research. As mentioned, I used them extensively myself and believe they are extremely useful (e.g., you come up with ideas and guide it, and let it work on the mundane code writing and testing). In addition, I believe that if my stick with traditional methods, they will be left behind and will be outcompeted by others who use LLMs.  
+
 
 
 // \item\textbf{What are your expectations about code release? How do you ensure experiments are reproducible?}
 
 // As mentioned in~\autoref{q:scooping}, all our developments, even the ones that are not published yet, are open-source and publicly available in our \href{https://code.roars.dev/}{repos}. As code are changed  daily, so we don't have the time to make our instructions/README up-to-date all the time. But we always stand by our code and try to help others who want to use it (e.g., through bug report through our Github issue tracker) to ensure they can get whatever we get.
 
-// Many confs. require artifact evaluation (AE) for reproducibility. However, I don't like AE at all and try to avoid it unless it's required. The AE reviewers usually do not have the resources to run our code and reproduce our results, e.g., our work on scaling DNN verification requires powerful machines that most AE reviewers don't have access to. In some cases, the reviewers do not even have fast internet to download our VM images. In many cases they attempt to install and run our code on their local machine but fail due to various reasons. The most frustration part is that we can easily show them how to fix the issues and run the code, but they don't communicate with us and after a few attempts they just give up and just give bad reviews.
+// Many confs. require artifact evaluation (AE) for reproducibility. However, I don't like AE at all and try to avoid it unless it's required. The AE reviewers usually do not have the resources to run our code and reproduce our results, e.g., our work on scaling DNN verification requires powerful machines that most AE reviewers don't have access to. In some cases, the reviewers do not even have fast internet to download our VM images. In many cases they attempt to install and run our code on their local machine but fail due to arious reasons. The most frustration part is that we can easily show them how to fix the issues and run the code, but they don't communicate with us and after a few attempts they just give up and just give bad reviews.
 
 = Similar Resources
 
