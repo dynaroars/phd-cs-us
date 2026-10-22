@@ -1,22 +1,35 @@
-
 #set page(numbering: "1", number-align: center)
 #set heading(numbering: "1.")
 #set text(lang: "en", size: 11pt)
 #set list(indent: 1em)
 #set enum(indent: 1em)
-#show ref: set text(fill:blue)
+#set page(numbering: "1", number-align: center)
+#set heading(numbering: "1.")
+#set smartquote(enabled: false)
+
+#show heading: set block(above: 1.4em, below: 1em)
+#set par(justify: true)
 #show link: it => text(fill:blue, underline(it))
+#show ref: set text(fill:blue)
+#show quote: set text(style: "italic")
 #show heading: set block(above: 1.4em, below: 1em)
 
-#set document(
-    title: "Advisor Guide: Answers to Common Questions",
-    author: "ThanhVu Nguyen"
-)
-#set par(justify: true)
+
+#show quote: it => block(stroke: green, inset: 1em, it.body)
+
+#show title: set align(center)
+#title[Advisor Guide: Answers to Common Questions]
+
+
+#align(center)[
+#link("https://tvn.roars.dev")[ThanhVu Nguyen] \
+#link("https://roars.dev")[Roars Lab] · George Mason University
+]
+
 
 #import "@preview/theorion:0.6.0": *
-//#import cosmos.simple: *
-#import cosmos.fancy: *
+#import cosmos.simple: *
+//#import cosmos.fancy: *
 //#import cosmos.rainbow: *
 //#import cosmos.clouds: *
 #show: show-theorion
@@ -65,10 +78,14 @@ PMs will select panelists to review your proposal.
 ]
 
 == Category of Proposals after Panel Discussion
-Typically there are three categories of proposals after the panel discussion: Highly Competitive (or HC), Competitive (or C), and Not Competitive (or NC). HC means it is likely to be funded, C means it is good but might not be funded, and NC means it is not recommended for funding. 
--
+Typically there are *three* categories or ratings of proposals after the panel discussion:
++ Highly Competitive (or HC): proposals excellent are likely to be funded
++ Competitive (or C): proposals are good but might not be funded
++ Not Competitive (or NC): not recommended for funding. 
 
 
+#remark-block[While being rare, it is possible that an HC proposal is not funded, e.g., if there are too many HC proposals and the budget is not sufficient,  or if there are multiple HC proposals that are very similar and the PM can only fund one of them, etc.
+]
 
 
 = After the Panel Meeting: Recommendation and Timeline
@@ -76,11 +93,6 @@ Typically there are three categories of proposals after the panel discussion: Hi
 
 - *Budget adjustment*: the PM might ask the PIs to adjust the budget of the proposal (e.g., reduce the budget if the panel thinks the proposed work can be done with less budget). This also helps the PM to fund more proposals with the available budget.
 However, this is likely based on the suggestion from the panel as the PM rarely makes this decision on their own.
-
-
-
-#remark-block[While being rare, it is possible that an HC proposal is not funded, e.g., if there are too many HC proposals and the budget is not sufficient,  or if there are multiple HC proposals that are very similar and the PM can only fund one of them, etc.
-]
 
 
 = General Issues in Proposals
