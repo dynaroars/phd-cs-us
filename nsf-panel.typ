@@ -1,22 +1,35 @@
-
 #set page(numbering: "1", number-align: center)
 #set heading(numbering: "1.")
 #set text(lang: "en", size: 11pt)
 #set list(indent: 1em)
 #set enum(indent: 1em)
-#show ref: set text(fill:blue)
+#set page(numbering: "1", number-align: center)
+#set heading(numbering: "1.")
+#set smartquote(enabled: false)
+
+#show heading: set block(above: 1.4em, below: 1em)
+#set par(justify: true)
 #show link: it => text(fill:blue, underline(it))
+#show ref: set text(fill:blue)
+#show quote: set text(style: "italic")
 #show heading: set block(above: 1.4em, below: 1em)
 
-#set document(
-    title: "Advisor Guide: Answers to Common Questions",
-    author: "ThanhVu Nguyen"
-)
-#set par(justify: true)
+
+#show quote: it => block(stroke: green, inset: 1em, it.body)
+
+#show title: set align(center)
+#title[Advisor Guide: Answers to Common Questions]
+
+
+#align(center)[
+#link("https://tvn.roars.dev")[ThanhVu Nguyen] \
+#link("https://roars.dev")[Roars Lab] · George Mason University
+]
+
 
 #import "@preview/theorion:0.6.0": *
-//#import cosmos.simple: *
-#import cosmos.fancy: *
+#import cosmos.simple: *
+//#import cosmos.fancy: *
 //#import cosmos.rainbow: *
 //#import cosmos.clouds: *
 #show: show-theorion
@@ -65,10 +78,14 @@ PMs will select panelists to review your proposal.
 ]
 
 == Category of Proposals after Panel Discussion
-Typically there are three categories of proposals after the panel discussion: Highly Competitive (or HC), Competitive (or C), and Not Competitive (or NC). HC means it is likely to be funded, C means it is good but might not be funded, and NC means it is not recommended for funding. 
--
+Typically there are *three* categories or ratings of proposals after the panel discussion:
++ Highly Competitive (or HC): proposals excellent are likely to be funded
++ Competitive (or C): proposals are good but might not be funded
++ Not Competitive (or NC): not recommended for funding. 
 
 
+#remark-block[While being rare, it is possible that an HC proposal is not funded, e.g., if there are too many HC proposals and the budget is not sufficient,  or if there are multiple HC proposals that are very similar and the PM can only fund one of them, etc.
+]
 
 
 = After the Panel Meeting: Recommendation and Timeline
@@ -76,11 +93,6 @@ Typically there are three categories of proposals after the panel discussion: Hi
 
 - *Budget adjustment*: the PM might ask the PIs to adjust the budget of the proposal (e.g., reduce the budget if the panel thinks the proposed work can be done with less budget). This also helps the PM to fund more proposals with the available budget.
 However, this is likely based on the suggestion from the panel as the PM rarely makes this decision on their own.
-
-
-
-#remark-block[While being rare, it is possible that an HC proposal is not funded, e.g., if there are too many HC proposals and the budget is not sufficient,  or if there are multiple HC proposals that are very similar and the PM can only fund one of them, etc.
-]
 
 
 = General Issues in Proposals
@@ -283,3 +295,21 @@ If you need more time to complete the project, you can request a no-cost extensi
 - NCE duration: typically up to 1 year, but can be shorter (e.g., 6 months) if you only need a short extension.
 - The first NCE is typically granted without much issue.  However, for the second NCE, you will need to provide a justification for why you need the extension and what you have accomplished so far. 
 - To request an NCE, first check with your institution's OSP to see if they have any specific requirements or forms that need to be filled out.
+
+
+= Notes
+
+== Terminologies:
+- *Review Writer*: you are assigned to review and write a review for this proposal.
+- *Scribe*: you are a *reviewer writer* of this proposal and you will write the *panel summary* for this proposal.
+- *Panelist*: you don't need to review this proposal, however you can (and should) participate in the panel discussion of this proposal and provide your comments and feedback to the *review writer* and *scribe*.
+
+== Checklist
+- Too much assumptions about the reviewers' knowledge
+- Lack of clear motivation or problem statement
+- Lack of convincing prior work or preliminary results or PIs' expertise in the area
+- Wall of text or tons of formulae
+- Insufficient Evaluation Plan
+- Generic Broader Impacts or Education Plan
+
+
