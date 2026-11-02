@@ -1,0 +1,63 @@
+name: Build PDFs and deploy site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Fail loudly if an important file was deleted (e.g., during a bad merge)
+      - name: Check required files exist
+        run: |
+          missing=0
+          for f in demystify.typ demystify.pdf advising.typ advising.pdf \
+                   nnv.typ nnv.pdf lab-manual.pdf; do
+            if [ ! -f "$f" ]; then echo "::error file=$f::required file $f is missing"; missing=1; fi
+          done
+          exit $missing
+
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: 0.14.2
+
+      # Rebuild PDFs from source so the site never serves a stale or missing PDF
+      - name: Compile Typst documents
+        run: |
+          for f in demystify advising nnv; do
+            echo "Compiling $f.typ"
+            typst compile "$f.typ" "$f.pdf"
+          done
+
+      - name: Build site with Jekyll (same as the classic Pages build)
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

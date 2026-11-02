@@ -1,0 +1,2 @@
+# Treat PDFs as binary: no line-based diffs/merges (resolve conflicts by recompiling)
+*.pdf binary
