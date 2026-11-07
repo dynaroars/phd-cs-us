@@ -311,5 +311,9 @@ If you need more time to complete the project, you can request a no-cost extensi
 - Wall of text or tons of formulae
 - Insufficient Evaluation Plan
 - Generic Broader Impacts or Education Plan
+  - Need details and specific examples, numbers, stats, names, etc. Otherwise not convincing.     
 
 
+
+
+too dense, what's the consequence, intuition, key ideas of having these terminologies etc.
