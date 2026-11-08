@@ -224,11 +224,11 @@ Originally, this book was written for international students, but has been expan
 Moreover, while this book focuses on CS, it might be relevant to students from various STEM disciplines (@sec:fields-and-areas).
 Furthermore, although many examples are specifics for schools that I and other contributors of this book know about, the information should apply to other good #gls("r1", first: false) institutions in the US.
 Finally, this book has been updated to reflect the current state of CS PhD admissions, including the impact of low enrollment and the increasing influence of
-AI on the application process (@sec:harder-now).
+AI on the application process (@sec:harder-now, @sec:using-ai, @sec:ai-emails).
 
 This book can also help *US faculty* and #gls("adcom",display: "admission committees") gain a better understanding of international students and their cultural differences (@chap:cultural).  By recognizing and leveraging these differences, CS programs in the US can attract larger and more competitive application pools from international students.
 
-I hope this book will help you understand the CS PhD admission process in the US and make informed decisions. 
+I hope this book will help you understand the CS PhD admission process in the US better and make informed decisions. 
 Additional information about the book can be found in @chap:about.
 
 
@@ -753,11 +753,10 @@ Getting into a CS PhD program has always and will always be competitive. However
 #simpsons[Son, if you really want something in this life, you have to work for it. Now quiet! They're about to announce the lottery numbers.]
 
 
-The goal of #gls("adcom") is not to reward the applicant who collected the most credentials. It is to find students with credible research potential whom faculty from the department can actually advise and support. The emphasis is #highlight[_matching_], which varies from school to school, faculty to faculty (@sec:ievaluate shows how I review applications), and even from year to year. 
+#Gls("adcom") does not aim to reward the applicant who have the most credentials, but to find students with credible research potential that fit well with the department. The emphasis is #highlight[_matching_], which varies from school to school, faculty to faculty (@sec:ievaluate shows how I review applications), and even from year to year. 
 
 The committee considers many factors, but the most important are #gls("LOR", first:true), #gls("SOP", first:true), and research experience, including publications and serious projects.
 
- 
 == Letters of Recommendation (LOR) <chap:LOR>
 //#chapter-opener([LORs are very important, but only if they are *personalized* and *research focused*.])
 
@@ -915,6 +914,7 @@ Note that many places only have deadlines for the applicant, but are very flexib
 #example[LOR invitations *with NO deadline*][
 *Sample 1 (UMass, no deadline):*
 
+```
 .. is applying for admission into the Computer Science (Ph.D.) program in the Graduate School at the University of Massachusetts Amherst and has listed you as a reference.
 
 _They have waived their right of access to see your reference._
@@ -922,9 +922,10 @@ _They have waived their right of access to see your reference._
 You may submit your reference online via the Graduate Reference Center, which is located at .. Please use the email address and code shown below to log in to submit this reference.
 
 A timely response is important for this applicant to be favorably considered. Please be aware that the applicant's admission could be contingent on your prompt response.
+```
 
 *Sample 2 (UIUC, No deadline):*
-
+```
 Dear ..
 
 .. has requested that you write a letter of recommendation for their Illinois graduate application. We greatly appreciate your feedback on X's ability to succeed in their graduate studies at Illinois.
@@ -932,9 +933,11 @@ Dear ..
 In an effort to make this process as easy as possible for you, we offer the ability to upload your recommendation letter online through our secure website. To submit your recommendation, please use the link below. This link is unique to this recommendation and should not be shared or forwarded.
 
 Thank you!
+```
 
 *Sample 3 (UNL, No deadline):*
 
+```
 .. is applying to the University of Nebraska-Lincoln and has named you as a recommender. _This applicant has waived the right to view your recommendation._
 
 Please complete our brief recommendation form (or if necessary, decline to recommend).
@@ -942,11 +945,13 @@ Please complete our brief recommendation form (or if necessary, decline to recom
 Should you experience any technical difficulties or require assistance with your account, please contact CollegeNET Support.
 
 Thank you.
+```
 ] <fig:LOR-invitations-no-deadline>
 
 #example[LOR invitations *with deadline*][
 *Sample 4 (MIT, With deadline):*
 
+```
 Dear Dr ..
 
 .. has listed you as a reference in an application to the EECS graduate program at MIT. If you are not .., please ask .. for the correct letter submission information. Please submit your letter here: ..
@@ -956,9 +961,11 @@ The deadline for the applicant is *Dec 15*; we start the admissions process imme
 Even though the applicant knows the link for submitting a letter, the applicant is unable to read your submitted letter. The https URL ensures that you connect to MIT's graduate admissions server. That server accepts letter submissions, but will not reveal a submitted letter.
 
 Thank you!
+```
 
 *Sample 5 (CMU, With deadline):*
 
+```
 Dear Recommender,
 
 The applicant listed below has applied to a graduate program in the School of Computer Science at Carnegie Mellon University and has requested a letter of recommendation from you.
@@ -968,6 +975,7 @@ Applicant: ..
 Click Here if your mail system provides html content or use the URL below to enter your letter of recommendation in PDF form only.
 
 Your letter of recommendation is due by *12 p.m. (Noon) EST on December 10, 20XX*. Thank you for taking the time to respond.
+```
 ] <fig:LOR-invitations-deadline>
 
 Also, many places do not begin the admission review process right after the deadline and work on application reviews in the next semester (mid-January).
@@ -983,7 +991,7 @@ More generally, you should do the same for anyone who has helped you during the 
 
 ==== Will It Be Annoying If You Ask For Many Letters? <sec:many-letters>
 
-As mentioned in @sec:my-LOR-perspective I personally do not mind writing many letters for my students *once I have agreed to write for them* (@sec:LOR-writing). Profs. in general are used to writing many letters, especially during the application season. Moreover, once a letter is written, it can be _reused_ for multiple applications, so it does not take much time to submit the letter to different universities (no more than 5 minutes per submission).
+As mentioned in @sec:LOR-writing, I personally do not mind writing many letters for my students *once I have agreed to write for them* (@sec:LOR-writing). Profs. in general are used to writing many letters, especially during the application season. Moreover, once a letter is written, it can be _reused_ for multiple applications, so it does not take much time to submit the letter to different universities (no more than 5 minutes per submission).
 
 However, some cases might raise some eyebrows, e.g., if you only aim at very top schools that the writers believe are not a good fit for you, or if you apply to too many schools (30+?) then the writers might question your seriousness or your ability to get into these schools. In short, don't overdo it, but applying to 10--15 schools is perfectly fine and common.
 
@@ -994,17 +1002,17 @@ For Vietnamese students, it's worth mentioning the #link("https://vef2.org/")[VE
 ]
 
 
-=== My Perspective <sec:my-LOR-perspective>
+=== How Do I Write a LOR? <sec:LOR-writing>
 #note-block[In this #link("https://www.reddit.com/r/gradadmissions/comments/1p0lkim/perspective_on_LORs_after_sending_a_big_batch/")[Reddit post], I provide my perspective about LORs and what I expect from my students when they ask me to write for them.  You can share this with your writers if you think it is useful. 
 ]
 
-#example[How Do I Write a LOR?][
 
-If a student asks me to write letter for them, I will generally agree as I believe it is my responsibility. I will ask them to waive their right to see the letter (@sec:waive-right), and will not write if they do not do so.
 
-I will also let the student know if I cannot write a strong letter for them (e.g., I don't know them that well), and suggest they find someone else.  If they insist, then I will write for them. While I try to say something positive, e.g., the student is hardworking and receive good grades, the letter will still be short and weak (@sec:generic-letters). Usually it takes me about *5–10* minutes to write such a "weak" letter.
+If a student asks me to write letter for them, I will generally agree as I believe it is my responsibility. I will ask them to *waive their right* to see the letter (@sec:waive-right), and will not write if they do not do so.
 
-Strong letters will require a lot more time and effort as it will be personalized.  While I have a general template for LOR, it still can take me *half an hour or more* to write it.  I often ask the students to provide information (@sec:help-your-LOR-writers) and what they think I should highlight in the letter. They can also provide me their SOP (if they already have written one) so I can complement what they say with my own perspective.  I often do not share what I write with the students, just to keep it more genuine and honest.
+I will also let the student know if I cannot write a strong letter for them (e.g., I don't know them that well), and suggest they find someone else.  If they insist, then I will write for them. While I try to say something positive, e.g., the student is hardworking and receive good grades, the letter will still be short and weak (@sec:generic-letters). Usually it takes me about *5–10* minutes to write such a _"weak"_ letter.
+
+Strong letters will require a lot more time and effort as it will be personalized.  While I have a general template for LOR (e.g., first paragraph talks about how I know the student, second paragraph talks about their research experience and potential, ..), it still can take me *half an hour or more* to write it.  I often ask the students to provide information (@sec:help-your-LOR-writers) and what they think I should highlight in the letter. They can also provide me their SOP (if they already have written one) so I can complement what they say with my own perspective.  I often do not share what I write with the students, just to keep it more genuine and honest.
 
 My letter always has the university letterhead and my signature.  While having a letterhead or signing the letter is *not required* (I never paid much attention to these when reading LORs), it makes the letter more official and professional.  
 This website has the template of the letter with letterhead and signature: #link("https://www.overleaf.com/read/xzyrxkdjfxsp#2a1f9e")[Overleaf template].
@@ -1012,7 +1020,7 @@ This website has the template of the letter with letterhead and signature: #link
 I (and most profs.) often do not write a new letter or customize the letter for each application or school. Instead, I write you a LOR, which is customized for _you_, but can be used to apply for multiple schools (e.g., "Dear Admissions Committee", instead of "Dear _MIT_ Admissions Committee").
 
 Finally, I usually submit a letter for a student in *batch*—submit to all universities that student is applying to at the same time). Typically, each submission takes about 1–5 mins, depending on the application system.  I will also let the student know when I have submitted the letter, and ask if I miss any.
-] <sec:LOR-writing>
+
 
 
 #pagebreak()
@@ -1095,7 +1103,7 @@ So do talk about them in your SOP (@chap:sop) and have your writers mention them
 
 While you might not have control over LORs (@chap:LOR) or where you go to school (@chap:your-school), you do have control over your #gls("SOP") or personal statement. A well-written SOP also demonstrates that you can communicate effectively, which is crucial in research and important for GTA funding (@chap:funding). Many SOP samples for CS are #link("https://cs-sop.org/")[available here].
 
-#caution-block[*What applicants get wrong:* An SOP is not an autobiography, a motivational speech, or a love letter to Computer Science. It is an argument, which should be backed with concrete evidence, that you are ready to become a researcher and that this program has a plausible place for you. If the statement gives me no concrete sentence I can use to advocate for you, it has failed (@sec:ievaluate).]
+#caution-block[*What applicants get wrong:* An SOP is not an autobiography, a motivational speech, or a love letter to Computer Science. It is an argument, which should be backed with _concrete evidence_, that you are ready to become a researcher and that this program has a plausible place for you. If the statement gives me no concrete sentence I can use to advocate for you, it has failed (@sec:ievaluate).]
 
 In your SOP, focus on research potential (@chap:research-experience) and convince reviewers through your experience, e.g., published papers (@sec:publications). Back up your claims with *concrete evidence*. For example, if you say you have teaching experience, show what you did, e.g., undergraduate TA or mentoring someone. If you say you worked on a research project, show some results, e.g., paper submitted (or even rejected), achieved certain performance improvement over the state of the art.
 
@@ -1106,11 +1114,13 @@ Finally, this is a simple but often overlooked task: *tailor your SOP to the ins
 #tip-block[
 Have your SOP reviewed by your LOR writers (@sec:help-your-LOR-writers) and professors, especially those who have served in adcom, or even postdocs or PhD students as they have been through this process.
 ]
-#example[*Jeff Erickson* (UIUC) through a #link("https://www.reddit.com/r/gradadmissions/comments/1owtfgl/comment/nosxvdm/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1")[Reddit post]][The main thing that I (and other CS faculty) look for in application statements is concrete evidence of research potential. I don't want you to *tell* me that you're excited/motivated/passionate about computer science research. I want you to *show* me your specific interests and your investment/commitment. I want your statement to *demonstrate* your technical background, self-awareness, clarity of thought, intellectual (and ideally emotional) maturity, independence, creativity, discipline, attention to detail, willingness to take risks, and understanding of what research actually is. (Hint: Not just more homework.) I want you to show enough investment in your specific research interests to describe them in credible technical detail.
+#example-box[*Jeff Erickson* (UIUC) through a #link("https://www.reddit.com/r/gradadmissions/comments/1owtfgl/comment/nosxvdm/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1")[Reddit post]][```
+The main thing that I (and other CS faculty) look for in application statements is concrete evidence of research potential. I don't want you to *tell* me that you're excited/motivated/passionate about computer science research. I want you to *show* me your specific interests and your investment/commitment. I want your statement to *demonstrate* your technical background, self-awareness, clarity of thought, intellectual (and ideally emotional) maturity, independence, creativity, discipline, attention to detail, willingness to take risks, and understanding of what research actually is. (Hint: Not just more homework.) I want you to show enough investment in your specific research interests to describe them in credible technical detail.
 
   In particular, I do not want to read about how many programming languages you know, or stories about how you've been coding since the womb, or starry-eyed platitudes about how artificial intelligence is the best thing since sliced bread, or about your goal to be the next Geoffrey Hinton or Terry Tao. Nothing about your first trembling steps.
 
   You are applying for a job. I want evidence that you are likely to do that job well. I don't want to be entertained. I want to be *informed*.
+  ```
 ]
 
 === Kiss of Death in SOP <sec:kiss-of-death-sop>
@@ -1141,7 +1151,7 @@ CS academics like using LaTeX (common way to write our papers and other document
 
 === Diversity Statement <sec:diversity-statement>
 
-Some universities require a *#gls("diversity-statement")*---an essay about  Diversity, Equity, and Inclusion (DEI)---as part of the application. While the topic of DEI has become politically contested in the U.S., you should be prepared to address it when asked. 
+Some universities require a #gls("diversity-statement")---an essay about  Diversity, Equity, and Inclusion (DEI)---as part of the application. While the topic of DEI has become politically contested in the U.S., you should be prepared to address it when asked. 
 Many students, especially international ones, find this statement confusing because they are unsure what it is about (truth is, even people in the U.S. struggle with this topic).
 
 At a high level, a diversity statement is _not_ an ideological endorsement, but rather a way to assess your _awareness_ of DEI issues, _understanding_ of challenges faced by minority groups, and potential _contributions_ you can make.
@@ -1176,10 +1186,10 @@ Many international students mistakenly assume that their school is well-known, b
 
 If you think your school has a strong reputation, mention it in your SOP with concrete evidence like rankings or awards. You can also ask your LOR writers to talk about your school (@sec:help-your-LOR-writers).
 
-Of course, if you're interested in working with Vietnamese, consider #link("https://roars.dev/phd-cs-us/viet-cs-profs-us")[CS programs in the US that have Vietnamese professors].
+Of course, if you're interested in working with Vietnamese, consider #link("https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences&track=Tenure-line")[CS programs in the US that have Vietnamese professors].
 
 #example-box[
-  Sometimes PhD adcom in the US will share a document such as #link("https://github.com/dynaroars/dynaroars.github.io/wiki/Foreign-Top-Schools")[this one], which lists the top schools in several countries. We also ask other faculty and students if we think they know about the place. For example, when I was a postdoc at UMD, members of their CS PhD adcom asked me to evaluate applicants from Vietnam. During my time at UNL and now here at GMU, I have looked at Vietnamese applications (whether they are assigned to me or not) and provided input to their reviewers, e.g., X is the top tech school in Vietnam and so it should be \emph{top} instead of \emph{unknown} foreign, which makes a huge difference.
+  Sometimes PhD adcom in the US will share a document such as #link("https://github.com/dynaroars/dynaroars.github.io/wiki/Foreign-Top-Schools")[this one], which lists the top schools in several countries. We also ask other faculty and students if we think they know about the place. For example, when I was a postdoc at UMD, members of their CS PhD adcom asked me to evaluate applicants from Vietnam. During my time at UNL and now here at GMU, I have looked at Vietnamese applications (whether they are assigned to me or not) and provided input to their reviewers, e.g., X is the top tech school in Vietnam and so it should be _top_ instead of _unknown_ foreign, which makes a huge difference.
 ]
 #tip-block[*Deepak*:
   If an applicant is anxious about their school not being known outside their country, they can provide information about their school and department, with independent sources where such information can be verified.
@@ -1196,7 +1206,7 @@ Compared to other factors such as LORs (@chap:LOR) and research experiences (@ch
 
 PhD in CS is a research degree and doing well in courses does not necessarily mean you can do research---other factors such as research experiences, pubs, LORs are more important. Thus, do not assume that having a high GPA (e.g., 3.8/4.0 or 9.0/10) will help much in your application.
 
-That said, if you are from a well-known school (@chap:your-school), having good grades _might_ help, e.g., adcom members often note details such as "good GPA from well-known school (@sec:ievaluate)". However if your school is not well-known, having top grades or rankings usually will not help because we cannot evaluate them (e.g., we don't know how hard it is to get a 4.0 or A's at your school). This can be an issue for students in many top international universities where the competition is so high that very good students can still have low rankings from these schools (and be overlooked by adcom).
+That said, if you are from a well-known school (@chap:your-school), having good grades _might_ help, e.g., adcom members often note details such as "good GPA from well-known school (@sec:ievaluate)". However if your school is not well-known, having top grades or rankings usually will not help because we cannot evaluate them (e.g., we don't know how hard it is to get a 4.0 or A's at your school and if grade inflation is common at your school). This can be an issue for students in many top international universities where the competition is so high that very good students can still have low rankings from these schools and be overlooked by adcom.
 
 As with school reputation, you and your LOR writers can mention the grading system of your university if you think that is helpful for adcom to evaluate (@sec:help-your-LOR-writers).
 
@@ -1208,16 +1218,15 @@ As with school reputation, you and your LOR writers can mention the grading syst
 
 While having good GPA might not help much (@sec:good-grades), #highlight[_having bad GPA will likely hurt your application_]. If you have bad grades, you should explain them in your SOP, or better yet, have your LOR writers explain them in their letters if they know the reasons.
 
-Moreover, having bad grades in relevant courses, e.g., Math and CS, can be a red flag.
+Moreover, having bad grades in relevant courses, e.g., Math and CS, can be a #alert[red flag].
 Adcom members often scan through transcripts (@sec:ievaluate) looking for C and lower grades in Math and CS courses and raise concerns if they see several of them.
 Note that bad grades in non-relevant courses, e.g., politics or history, are not as concerning.
 
 Should you explain bad grades in relevant courses in your SOP? If you have just a few, they do not matter much, so don't spend much time explaining them (many adcom reviewers themselves have bad grades in relevant courses!). But if you have many bad grades for an entire semester or year due to some specific reasons, then try to explain them in your SOP.
 
-#paragraph[Below Minimum Requirement][Many universities have a minimum GPA requirement (e.g., $> 3.0$) and will automatically reject applications with GPAs below the requirement (@sec:why-rejected). This means adcom members might not even see your application if your GPA is below the minimum requirement.]
+#warning-block[*Below Minimum Requirement*: Many universities have a minimum GPA requirement (e.g., $> 3.0$) and will automatically reject applications with GPAs below the requirement (@sec:why-rejected). This means adcom members might not even see your application if your GPA is below the minimum requirement.  
 
-#warning-block[
-  GMU College of Engineering and Computing requires a minimum GPA of 3.0/4.0 for PhD applications, and will _autoreject_ applications below this threshold.
+For example, GMU College of Engineering and Computing requires a minimum GPA of 3.0/4.0 for PhD applications, and will _autoreject_ applications below this threshold.
 ]
 
 #pagebreak()
@@ -1227,8 +1236,7 @@ Should you explain bad grades in relevant courses in your SOP? If you have just 
 
 #simpsons[I've got to study harder. Everyone knows standardized tests are biased against the poor, the lazy, and the stupid.]
 
-
-=== GREs Are Optional and Do Not Matter for PhD Admissions <sec:gre>
+=== GREs Are Optional and #highlight[Do Not] Matter for PhD Admissions <sec:gre>
 
 While a few schools still require taking the #link("https://www.ets.org/gre")[GRE] exam (e.g., UCF), most good CS PhD programs in the US #highlight[do not require it]---the #link("https://www.science.org/content/article/gre-exit-gains-momentum-ph-d-programs-drop-exam-requirement-amid-pandemic")["GRExit"] trend. The reason is that GRE scores do not correlate well with research ability (@chap:research-experience), which is the most important factor for PhD admission. Note that many faculty members themselves did not take the GRE or had bad scores.
 
@@ -1290,7 +1298,7 @@ It is a *good idea* to upload a writing sample, e.g., a paper you wrote, a repor
 
 A quick read through a writing sample can reveal a lot about your research work and writing skills, which sometimes are not well presented in your SOP or LORs. But of course if your writing sample is not good, then it can hurt your application. So make sure you upload something serious and well-written.
 
-=== Online Courses and Certificates
+=== Online Courses and Certificates (#highlight[Don't matter much]) <sec:online-courses>
 
 These do not carry much weight as they do not show research ability. We do not care much if you have taken an online Coursera AI course or have a professional certificate from Microsoft.
 However, as mentioned in @sec:non-stem, if you do not have a CS background, you might be able to use these to show you have sufficient CS knowledge.
@@ -1299,17 +1307,18 @@ However, as mentioned in @sec:non-stem, if you do not have a CS background, you 
 These are _not_ required but are increasingly common. In CS, academic websites are _very_ common and used to showcase research, publications, and projects. You don't need fancy websites with tons of JavaScript and animations. A simple website with your name (and sometimes photo), research interests, publications, and projects is enough. You can use free services such as #link("https://github.io")[GitHub Pages] to create your website. Many CS students also use GitHub to host their projects and demonstrate their involvement in open-source projects.
 
 You can mention your website and projects in your CV (@sec:cv) and SOP (@chap:sop).
-Having popular projects or active contributions can help you stand out (@sec:stand-out), especially if you do not have much research experience.
+Having popular projects or active contributions can really help you stand out (@sec:stand-out), especially if you do not have much research experience.
 
 #tip-block[
-  Many students include LinkedIn (or Facebook and X/Twitter) profiles in their applications. While these might be popular when applying for jobs, they might not be very useful for PhD application evaluation. Adcom members might not be familiar with LinkedIn (and might not want to visit a page that requires an account and login), so it is better to have something like a personal or project website, which is far more common and easier to access.
+  Many students include LinkedIn (or Facebook and X/Twitter) profiles in their applications. While these might be common when applying for jobs, they are not useful for PhD application evaluation. Adcom members might not be familiar with LinkedIn (and might not want to visit a page that requires an account and login), so it is better to have something like a personal or project website, which is far more common and easier to access.
 ]
 
+#pagebreak()
 == Using AI and LLMs in Your Application <sec:using-ai>
 
-As AI and LLMs become more popular, many students wonder if they could use AI chatbots such as ChatGPT and Claude to help with their application materials, especially statements. In particular, they worry if the university or adcom reviewers would check and penalize them for doing so.
+As AI and LLMs (e.g., from OpenAI and Anthropic) become more popular, many students wonder if they could them to help with their application materials, especially statements. In particular, they worry if the university or adcom reviewers would check and penalize them for doing so.
 
-*Honest take*: Nowadays it would be naïve to tell anyone, especially CS students, to ignore AI (I use these tools myself _extensively_ for everything). So the question is not whether you can use AI, but how to use it properly.
+Honestly, nowadays it would be naïve to tell anyone, especially CS students, to ignore AI (I use these tools myself _extensively_ for everything). So the question is not whether you can use AI, but how to use it _properly_.
 
 
 #paragraph[How to Use AI][The key is to #highlight[use AI as an editor and brainstorming partner, not as a replacement for your own thinking]. For example, you should write the first draft yourself, in your own words, with your own examples. Then use AI to improve that draft. If you start from a blank page and prompt AI to _"write me an SOP for PhD CS,"_ you have already lost the one thing that makes an application stand out and become memorable---*you*.]
@@ -1323,7 +1332,7 @@ As AI and LLMs become more popular, many students wonder if they could use AI ch
 #paragraph[Checking for AI content][Students rightfully worry that adcom reviewers will check their SOPs for AI content and penalize them for using AI.
 
     Personally I _do not_ check your statements for AI contents. First, I do not have the time to do that. It is much easier for me to just read the statement and see if it makes sense and stands out (@sec:ievaluate).
-    _Hint_: Purely AI-generated content reads very strangely and faculty is just too experienced in reading essays and SOPs from students to not notice it.  In addition, AI-checking technology is very unreliable and inconsistent. For example, a checker might claim that 80% of an essay is AI-generated while another says it is 0%. So we cannot rely on these tools to determine if a statement is AI-generated or not. Finally, as mentioned, I think it is fine to use AI to help you improve your writing, so I do not see a reason to check or penalize students for using AI to help them write their SOPs.
+    _Hint_: AI-generated content reads very strangely and faculty is just too experienced in reading essays and SOPs from students to not notice it.  In addition, AI-checking technology is unreliable and inconsistent. For example, a checker might claim that 80% of an essay is AI-generated while another says it is 0%. So we cannot rely on these tools to determine if a statement is AI-generated or not. Finally, as mentioned, I think it is fine to use AI to help you improve your writing, so I do not see a reason to check or penalize students for using AI to help them write their SOPs.
 ]
 
 
@@ -1477,7 +1486,10 @@ Students often ask about what to do after they get an interview or an offer from
 
 #strong[Checking your application status and following up emails] If you have interviewed and not heard back from a professor after a few weeks or especially around the time when universities send out their admission decisions (around late Feb--mid-Mar), you can email to check.  You can follow up the interview invitation and say: 
 
-#emph-block["Thanks for chatting with me. I am very excited about the opportunity to work with you.  Could you please let me know if you have made a decision or if you need more information from me?"] 
+
+  ```
+  "Thanks for chatting with me. I am very excited about the opportunity to work with you.  Could you please let me know if you have made a decision or if you need more information from me?"
+  ```
 
 Profs. are often very busy (@sec:busy), especially during admission time when they have many reviews and interviews.  They might not have time to respond to every email.  If you do not hear back after a week, you can send another email to check again.  If you still do not hear back, you can assume that you are not selected.
 
@@ -1545,7 +1557,7 @@ Typically, the most wiggle room is funding in the summer (@sec:summer-funding) w
 
 For a specific start date or GTA assignment (e.g., TA'ing a particular course), you can ask for it. Also, there is typically no moving allowance for PhD students. In short, standard things set by the university or department are unlikely negotiable. However, you can ask for things such as books and computer equipment (@sec:buying-equipment).
 
-#caution-block[*My decision rule:* #highlight[Don't try to negotiate a standard TA/RA offer merely because career websites say you should negotiate everything.] You will likely not change a centrally determined stipend, and you risk signaling that you misunderstand how PhD funding works. Ask informed questions about summer support, equipment, start dates, and funding duration instead. Negotiation is normal for many jobs; it is not automatically useful in CS PhD admissions.]
+#caution-block[#highlight[Don't try to negotiate a standard TA/RA offer merely because career websites say you should negotiate everything.] You will likely not change a centrally determined stipend, and you risk signaling that you misunderstand how PhD funding works (and can rub people, e.g., your potential advisor, the department, and the university) the wrong way. Instead, ask informed questions about summer support, equipment, start dates, and funding duration. Negotiation is normal for many jobs, but it is not automatically useful in CS PhD admissions.]
 
 === Buying Computer Equipment <sec:buying-equipment>
 //\sectioninfo{Ask your prof. if they can buy computer equipment and such for your research.}
@@ -1600,7 +1612,7 @@ Rejection is a common part of the PhD application process. In fact, rejection is
 
 If you do not get admitted to any schools or don't want to go to the ones that admit you, try again next year! Grad admission can involve randomness and noise. In the meantime, you can work on improving your profile, e.g., get more research experiences, publish more papers, improve your connections for stronger LORs, etc. See rejection reasons (@sec:why-rejected) and additional advice to improve your chance (@sec:stand-out).
 
-#example-box[
+#example-box[*My experience*][
   I got rejected from 12/13 CS PhD programs in 2007. While I believe I have strong research profile with multiple publications, I did not know much about the admission process and made many mistakes. But in any case, I did get into one school: the University of New Mexico (UNM). I decided to just take UNM instead of waiting for another year. I felt that was the best decision at that time (and in retrospect, it made me who I am today).
   
   If you didn't get into your top choices but into some other schools, you can do what I did and just take it---and do really well there. You can also try again next year or go to a different school.
@@ -1632,7 +1644,11 @@ Your #strong[Research] (@chap:research-experience) might not be as strong as you
   caption: [Comment from an NLP researcher on an applicant with multiple NeurIPS papers.],
   align(left)[
     #text(size: 0.9em)[
-      #emph-block[_"The applicant has done some interesting work, but much of what they have done has been only on dataset creation, with almost nothing on actual modeling or tackling tasks. This has merits, but it's more of an engineering feat than a research feat."_]
+      #emph-block[
+        ```
+        "The applicant has done some interesting work, but much of what they have done has been only on dataset creation, with almost nothing on actual modeling or tackling tasks. This has merits, but it's more of an engineering feat than a research feat."
+        ```
+        ]
     ]]  
 ) <fig:comment-neurips>
 
@@ -2076,7 +2092,7 @@ If in doubt, check with the CS dept. for their requirements.
 
 It is possible to transfer between departments (and universities). However, this can be complicated and often requires re-applying to the new department and taking additional coursework or exams required by the new place. Moreover, your advisor may not be able to supervise you in the new department (they can co-advise or serve on the committee, but unlikely are allowed by the new department to be your main advisor). Usually, transfers happen because the current advisor moves to a new department or university, and the student wants to stay with them.
 
-For this specific reason, CSRankings and CSPicks focus on faculty who can advise CS PhD students. I also have compiled a #link("https://roars.dev/phd-cs-us/viet-cs-profs-us")[list] of Vietnamese faculty who can advise PhD students. @sec:faculty-types discusses more about who can serve as your PhD #gls("advisor").
+For this specific reason, CSRankings and CSPicks focus on faculty who can advise CS PhD students. I also have compiled a #link("https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences&track=Tenure-line")[list] of Vietnamese faculty who can advise PhD students. @sec:faculty-types discusses more about who can serve as your PhD #gls("advisor").
 
 // %\section{Comparison Factors}
 
@@ -2200,18 +2216,17 @@ For this specific reason, CSRankings and CSPicks focus on faculty who can advise
 
 Adcom has direct influence over admissions decisions (@sec:adcom), but they operate within a larger university hierarchy that can impact those decisions. For example, enrollment and funding levels may lead to changes in admissions criteria or the number of students accepted (e.g., TA reduction). @fig:university-hierarchy illustrates the typical hierarchy in a US university and how different entities influence CS PhD admissions.
 
-==== Top Governance and Executive Administration
-The Board, President or Chancellor, and Provost control university-level budgets, policies, and faculty growth. They do not read your application. They matter because a budget cut, hiring initiative, or new college can change how many faculty and TAs the department can support---and therefore how many PhD offers it can make.
+#paragraph[Top Governance and Executive Administration][
+The Board, President or Chancellor, and Provost control university-level budgets, policies, and faculty growth. They do not read your application. They matter because a budget cut, hiring initiative, or new college can change how many faculty and TAs the department can support---and therefore how many PhD offers it can make.]
 
-==== Shared Governance
-The *Faculty Senate* represents faculty and may influence curriculum, graduate requirements, and academic policy, but it does not evaluate individual applicants. I serve as a faculty senator at GMU; in my experience, this work can shape the rules around a program but is far removed from deciding whether a particular applicant is admitted.
+#paragraph[Shared Governance][
+The *Faculty Senate* represents faculty and may influence curriculum, graduate requirements, and academic policy, but it does not evaluate individual applicants. I serve as a faculty senator at GMU; in my experience, this work can shape the rules around a program but is far removed from deciding whether a particular applicant is admitted.]
 
-==== Local Units (College/School/Dept)
+#paragraph[Local Units (College/School/Dept)][
 Colleges and schools control budgets and enrollment targets; departments control the local implementation. A dean may fund more TA positions or authorize faculty hiring, while the CS chair determines priorities and appoints the adcom. These officials normally do not choose individual applicants, but they determine the size and shape of the pool the committee is allowed to admit (@sec:how-decisions).
+]
 
 The people who matter directly to _your_ application are much closer to the bottom of @fig:university-hierarchy: the assigned adcom reviewers and potential advisors. Faculty can advocate for students they want to advise (@sec:applications-assigned); administrative staff verify and process the file but do not decide its academic merits.
-
-#caution-block[*What applicants get wrong:* Writing to a dean, provost, or department chair rarely creates influence. It usually reveals that you do not understand who evaluates the application. Contact a plausible advisor about research fit, and contact staff about missing documents or procedure.]
 
 
 #pagebreak()
@@ -2311,7 +2326,7 @@ Some universities have _research faculty_ or _research scientists_. Like postdoc
 
 These faculty members are typically not involved in research or PhD advising. _Emeritus faculty_ are retired professors and are usually no longer active in research or advising. Note that emeritus _does not_ necessarily mean they are old or inactive, just that they have retired from their official faculty position.
 
-_Adjunct faculty_ are typically part-time instructors who may have a full-time job outside academia#footnote[Fun fact: Mike Pence, who was the former Vice President of the United States, is an adjunct faculty member at George Mason.]. They are usually only affiliated with the university only for their period of teaching contract (e.g., one semester) and thus do not have the institutional role to advise PhD students.
+_Adjunct faculty_ are typically part-time instructors who have a full-time job outside academia#footnote[Fun fact: Mike Pence, who was the former Vice President of the United States, is an adjunct faculty member at George Mason.]. They are usually affiliated with the university only for their period of teaching contract (e.g., one semester) and thus do not have the institutional role to advise PhD students.
 
 Because of their limited roles, adjunct and emeritus faculty do not serve as PhD advisors. So, do not contact them to ask about research openings.
 
@@ -2376,7 +2391,7 @@ We need students to help turn grants and ideas into papers, software, and traine
 
 Understandably, many students prefer to work with faculty from their own country (e.g., 
 Chinese students with Chinese faculty, Indian students with Indian faculty
-). You feel more comfortable as they share the same language and culture, understanding your schools and background, and that they "get" you. So it is perfectly fine to start with faculty from your country (e.g., a #link("https://roars.dev/phd-cs-us/viet-cs-profs-us")[list of Vietnamese CS faculty] in the US).
+). You feel more comfortable as they share the same language and culture, understanding your schools and background, and that they "get" you. So it is perfectly fine to start with faculty from your country (e.g., a #link("https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences&track=Tenure-line")[list of Vietnamese CS faculty] in the US).
 
 However, this should not be the main reason for choosing a faculty (@chap:choosing-advisor), and you should expand your search to include faculty from other countries. Research and higher education in general encourage exploration, e.g., students often go to different grad schools than their undergrad schools, and switching fields (and even advisors) is more common than you might think. It also won't be fun to be in a lab with students with similar background all speaking the same language all the time; you will not learn as much from each other.
 
@@ -2411,21 +2426,21 @@ You need to _customize your email_ for them and _make yourself stand out_ from t
 
 Below is a good example:
 
-#emph-block[
+```
   Dear Prof. Nguyen,
 
   I am writing to inquire about potential research opportunities as a GRA in your group at GMU. Currently, I am an undergraduate student in Computer Science at UNIV and plan to graduate in May 2023.
 
-  _[a very strong version and customized specifically for me]_ I have followed your instructions on your website and created a PR to fix the GitHub issue X in your project Y. I also notice that the project might benefit from some additional features, e.g., Z, and I am working on a PR for it.
+  [a very strong version and customized specifically for me] I have followed your instructions on your website and created a PR to fix the GitHub issue X in your project Y. I also notice that the project might benefit from some additional features, e.g., Z, and I _have submitted_ a Github PR for it.
 
-  _[also strong, but more conventional and a bit boring]_ I have read your TSE'21 paper on numerical invariant generation, and I am interested in this line of dynamic invariant research. I have worked (optional: with prof. Y at Z) on static program analysis and I think it could be used to tackle the spurious issues mentioned in your paper. I have a short paper at conference/workshop C and a project on symbolic execution (GitHub repo G).
+  [also strong, but more conventional and a bit boring] I have read your TSE'21 paper on numerical invariant generation, and I am interested in this line of dynamic invariant research. I have worked (optional: with prof. Y at Z) on static program analysis and I think it could be used to tackle the spurious issues mentioned in your paper. I have a short paper at conference/workshop C and a project on symbolic execution (GitHub repo G).
 
-  _[something more personal and will catch my attention]_ I also have read your advising guide emphasizing independence and result-oriented research, and I think this is a good fit because ...
+  [something more personal and will catch my attention] I also have read your advising guide emphasizing independence and result-oriented research, and I think this is a good fit because ...
 
   ---
 
   _[This is a good example because it is written just for me. It shows that the student has done their homework, followed my instructions, and knows my work well.]_
-]
+```
 
 Many profs. explicitly state on their website how prospective students should (or should not) contact them, e.g., using specific email subjects and additional information (e.g., read specific papers, try some programming tasks). If they don't state anything, you can still customize your email by showing that you have read their papers know their work. This is a good way to show that you are genuinely interested in their work and not just sending a generic email.
 
@@ -2514,7 +2529,24 @@ But there's a good chance that we would respond to well-written emails (@sec:con
   I skim through _every email_ sent by students for admission and research opportunities (many of which are from undergrads and high school students). So that means I do read your emails, and they rarely go to my spam or trash folder. However, I rarely reply to them because most of them are generic and do not show any interest in my work (@sec:kiss-of-death-emails).
 ]
 
-    
+==== Making Contacts in the Age of AI <sec:ai-emails>
+
+Nowadays, many students leverage AI/LLMs to help write emails to professors. For example, one can tell an agents to quickly browse and read a prof.'s papers and website, and then write a personalized email based on that information. 
+
+Thus, on one hand, AI can help you research and write better emails. On the other hand, because of AI, writing a "good" email is _no longer enough to stand out_ because many students can do the same (and also profs. do not know whether you actually read their papers and website or just used AI to write the email). So you need to find ways to stand out (@sec:stand-out) and show that you are genuinely interested in their work.
+
+One way is to actually start working on the prof's open-source project, e.g., fixing a bug or adding a feature, and then send them a PR or suggestions. This obviously will take a lot more time and effort, and thus sets you apart from the crowd. You can use AI to help you with these things, but be sure to understand the work and be able to discuss it with them if they ask (but if they ask to talk to you then that means you got their attention, which is the goal).
+
+
+
+
+
+
+
+
+
+
+
 // %\part{Miscs and FAQs <part:faqs}
 // %= Miscs and FAQs <chap:faqs}
 
@@ -2791,7 +2823,7 @@ The U.S. Department of State publishes monthly statistics on nonimmigrant visa i
 
 #simpsons[I'm not a bad guy! I work hard, and I love my kids. So why should I spend half my Sunday hearing about how I'm going to Hell?]
 
-Most of what is written in this handbook applies to both international and domestic students (the #gls("international-domestic", first:true) distinction here simply comes down to whether you require a visa to study in the US).
+Most of what is written in this handbook applies to both international and domestic students, where the distinction often comes down to whether you require a visa to study in the US).
 However, there are some differences and benefits that domestic students should be aware of and can leverage to improve their chances of admission.
 
 #strong[Standing Out @sec:stand-out.] There are #emph[few] domestic applications compared to international ones (one reason is that many domestic students go to the workforce after their undergraduate degree). Many US universities thus want to increase the number of domestic students in their programs. So if you're a domestic student, you already #emph[stand out] from the crowd.
@@ -2962,9 +2994,10 @@ I also have written LORs for them and have helped them get into good PhD program
 == Open Source Contributions <sec:open-source-contribs>
 
 Open development platforms such as GitHub offer many research opportunities.
-In CS and many other fields, research labs often put their projects on GitHub to encourage collaboration and contributions from the community. For example, my research group, #link("https://roars.dev/")[Roars], has many open-source projects that undergrads can contribute to (some of my undergrad actually created and maintain these projects, e.g., #link("https://cspicks.roars.dev")[CSPicks]).
+In CS and many other fields, research labs often put their projects on GitHub to encourage collaboration and contributions from the community. For example, my research group, #link("https://roars.dev/")[ROARS Lab], has many open-source projects that undergrads can contribute to (some of my undergrad actually created and maintain these projects, e.g., #link("https://cspicks.roars.dev")[CSPicks]).
 
-By contributing code, fixing bugs, implementing new features, or providing documentation, students can gain practical research experience and interact with experienced developers and researchers in the field. Not only you gain research experience, but you might be able to get a LOR from the project maintainer, and you should write about this experience in your SOP (@chap:sop)
+Take advantage of these opportunities! 
+By contributing code, fixing bugs, implementing new features, or providing documentation, students can gain practical research experience and interact with experienced developers and researchers in the field. Not only you gain research experience, but you might be able to get a LOR from the project maintainer, and you should write about this experience in your SOP (@chap:sop).
 
 == Virtual Research Opportunities 
 This is less common but several places offer virtual internships and research programs aimed at providing hands-on research experience. These programs often involve working remotely under the guidance of experienced mentors and collaborating with a team of fellow researchers. For instance, #link("https://docs.google.com/forms/d/1btIwt4HwjyKMOUk-EMy3rbkfWzFxv2lNrMm_zkd0pA4/viewform?edit_requested=true")[UIUC+ Summer Undergraduate Research in Software Engineering] offers an unpaid remote internship for software engineering students all over the world to collaborate with mentors from University of Illinois at Urbana Champaign.
@@ -3470,7 +3503,7 @@ For example, suppose your advisor says, _"Let's use method X for this problem,"_
 
 _"I don't think X will work here because the input does not satisfy assumption Y. Maybe we could try Z instead?"_
 
-This is completely normal. Your advisor might disagree with you, and you might argue about it for 30 minutes. That's research! Neither side should take it personally.
+This is completely normal. Your advisor might disagree with you, and you might argue about it. That's research! Neither side should take it personally.
 
 Of course, there is a difference between disagreeing and being rude. _"I don't think this works because ..."_ is fine. _"This makes no sense"_ is probably not a good way to talk to anyone.
 
@@ -3741,7 +3774,7 @@ More details and justification for this metric can be found in the #link("https:
 
 
 #figure(
-  caption: [The top 50 CS programs in the US (#link("https://www.csrankings.org")[CSRankings.org], Aug. 2026). #super[\*] indicates that the university has  #link("https://roars.dev/phd-cs-us/viet-cs-profs-us")[Vietnamese prof.] that can advise CS PhD students.],
+  caption: [The top 50 CS programs in the US (#link("https://www.csrankings.org")[CSRankings.org], Aug. 2026). #super[\*] indicates that the university has  #link("https://vietprofs.roars.dev/?loc=US&field=Computer+%26+Information+Sciences&track=Tenure-line")[Vietnamese prof.] that can advise CS PhD students.],
   text(size: 0.9em,
   table(
     columns: (auto, 1fr, auto, 1fr),
@@ -3933,7 +3966,7 @@ You can also:
 I am an associate professor in the CS department at George Mason University (GMU). 
 Before GMU, I was at the University of Nebraska-Lincoln (UNL). Both UNL and GMU are #gls("R1") research universities in the US and have many international students in their CS graduate programs. I work in Software Engineering and Formal Methods. My research lab website is at #link("https://roars.dev")[roars.dev]. 
 
-I have been involved in the PhD admission process at GMU and UNL for many years. This allows me to have a good understanding of the process, the challenges students face, and what faculty are looking for. Currently I am the program director of the MS program in Software Engineering at GMU (thus also have experience with MS admission, which is quite different than PhD as discussed in @chap:ms). I have also served on panels for PhD fellowships including NSF GRFP and DoD NDSEG, which allows me to provide insights on external fellowship applications (@chap:fellowships).
+I have been involved in the PhD admission process at GMU and UNL for many years. This allows me to have a good understanding of the process, the challenges students face, and what faculty are looking for. Currently I am the program director of the MS program in Software Engineering at GMU (and also chair the MS admission committee, which is quite different than PhD as discussed in @chap:ms). I have also served on panels for PhD fellowships including NSF GRFP and DoD NDSEG, which allows me to provide insights on external fellowship applications (@chap:fellowships).
 
 Though I was _not_ an international student, many of my students and collaborators are or were. I also mentor students from Vietnam and have close colleagues and friends who were once international students. I hope to capture the diverse challenges and experiences they have faced in this book so that it can be a valuable resource for prospective international students.
 Finally, my upbringing in the US provides a perspective aligned with American culture, allowing me to shed light on various issues, particularly those related to cultural differences (@chap:cultural).
