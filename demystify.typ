@@ -223,8 +223,10 @@ So I want to share some details about the admission process and advice for those
 Originally, this book was written for international students, but has been expanded to generalize and include specific tips for *US domestic students* (@chap:domestic-students), e.g., applying for the NSF GRFP (@sec:nsf-grfp) and DoD NDSEG (@sec:dod-ndseg) fellowships.
 Moreover, while this book focuses on CS, it might be relevant to students from various STEM disciplines (@sec:fields-and-areas).
 Furthermore, although many examples are specifics for schools that I and other contributors of this book know about, the information should apply to other good #gls("r1", first: false) institutions in the US.
+Finally, this book has been updated to reflect the current state of CS PhD admissions, including the impact of low enrollment and the increasing influence of
+AI on the application process (@sec:harder-now).
 
-This book can help *US faculty* and #gls("adcom",display: "admission committees") gain a better understanding of international students and their cultural differences (@chap:cultural).  By recognizing and leveraging these differences, CS programs in the US can attract larger and more competitive application pools from international students.
+This book can also help *US faculty* and #gls("adcom",display: "admission committees") gain a better understanding of international students and their cultural differences (@chap:cultural).  By recognizing and leveraging these differences, CS programs in the US can attract larger and more competitive application pools from international students.
 
 I hope this book will help you understand the CS PhD admission process in the US and make informed decisions. 
 Additional information about the book can be found in @chap:about.
@@ -261,10 +263,10 @@ If you believe you have a chance in other countries, e.g., Australia, Canada, Ja
 
 #tip-block[The most selective US schools, e.g., top 10 in CS (@chap:rankings), are extremely competitive for everyone, regardless of background. Don't be discouraged if you don't get into a "household name" university as there are many excellent CS programs (@sec:selecting-ranking-schools) in the US that are not as well-known internationally but still offer great research opportunities and training. In fact, many top CS researchers and faculty members in the US did not graduate from #gls("Ivy League", capitalize:true, first:false) or top 10 schools.
 
-Many students, especially those from smaller countries or schools, have the *imposter syndrome*---worrying they're _"not good enough"_, or get discouraged when competing with others with "stronger" profiles (@sec:profile-not-strong). As explained in @chap:evalapps, #gls("adcom") looks for potential and evidence you'll thrive in research environment and fit well at their institution---things that usually have nothing to do with your GPA or GRE scores.
+Many students, especially those from smaller countries or schools, have the *imposter syndrome*---worrying they're _"not good enough"_, or get discouraged when competing with others with "stronger" profiles (@sec:profile-not-strong). As explained in @chap:evalapps, #gls("adcom") looks for potential and evidence you'll thrive in research environment and fit well at their institution---things that usually have nothing to do with your GPA or GRE scores (@chap:standard-tests).
 ]
 
-#note-block[As an international student you are not an outsider---you are the _norm_.
+#paragraph[International Students Are the Norm][As an international student you are not an outsider, instead you are the _norm_.
     In the most recent #link("https://datavisualization.cra.org/TaulbeeSurvey/CRA_Taulbee_Survey_Report_2024.html")[CRA Taulbee Survey], about *66% of CS PhD recipients in the US were international students* (non-resident aliens). So if you worry that being from a smaller or less well-known country puts you at a disadvantage, remember that roughly _two out of three_ CS PhDs in the US are international, just like you.]
 
 
@@ -312,7 +314,7 @@ So far I have tried to convince you that getting into a CS PhD program in the US
   caption: [10-year PhD completion rates by broad field in the US---note that even in the best-completing fields, a substantial fraction do not finish (#link("https://cgsnet.org/project/minority-attrition-and-completion-in-stem-doctoral-programs")[CGS PhD Completion Project]).],
 ) <fig:completion-rates>
 
-#paragraph[The real cost is opportunity cost][The tuition and stipend are covered (@chap:funding), so the financial cost to you is roughly zero---in fact you get paid. The real cost is _opportunity cost_: the difference between a PhD stipend (@sec:ra-cost) and what you could earn as a software engineer over those same 5--7 years, which can easily add up to several hundred thousand dollars. People who are happy they did a PhD almost always say it was because they wanted the _work_ (research), not because of the salary afterward.]
+#paragraph[The real cost is opportunity cost][The tuition and stipend are covered (@chap:funding), so the financial cost to you is roughly zero---in fact you get paid (this makes medical students go crazy!). The real cost is _opportunity cost_: the difference between a PhD stipend (@sec:ra-cost) and what you could earn as a software engineer over those same 5--7 years, which can easily add up to several hundred thousand dollars. People who are happy they did a PhD almost always say it was because they wanted the _work_ (research), not because of the salary afterward.]
 
 #paragraph[Alternatives to consider][
 - *Industry directly.* If you mainly want to build things and earn well, a strong undergrad or MS plus a good portfolio (@sec:personal-website) is often enough.
@@ -327,9 +329,9 @@ So far I have tried to convince you that getting into a CS PhD program in the US
 None of this is meant to scare you. The point is simply that a PhD is a particular kind of training for a particular kind of career, and it is worth being honest with yourself about whether that is what you want _before_ you spend a year on applications.
 
 
-#tip-block[*A useful test*: would you still want to do a PhD if it did _not_ lead to a higher salary or a fancier job title---purely because you enjoy digging into a hard problem for years? Would you still want to spend 5--7 years on a PhD if it does not improve your immigration status or make you more employable?
+#tip-block[*A useful test*: would you still want to do a PhD if it did _not_ lead to a higher salary or a fancier job title?  Would you still want to spend 5--7 years on a PhD if it does not improve your immigration status or make you more employable?
 
-If yes, you are the kind of person who tends to thrive. If the PhD is mainly a means to a job that does not actually require it, pause and reconsider]
+If yes, you are the kind of person who tends to thrive. If the PhD is mainly a means to get a green card or a job that does not actually require it, pause and reconsider!]
 
 
 
@@ -341,7 +343,7 @@ If yes, you are the kind of person who tends to thrive. If the PhD is mainly a m
 A PhD in CS is a #highlight[research degree] in Computer Science. Unlike undergraduate or even Master's programs (@chap:ms), which focus on breadth of knowledge through coursework, it is about _depth_ and pushing the boundary of a specific area within a CS field, such as software verification within the field of Programming Languages or Formal Methods (@sec:fields-and-areas). You will become an expert in your area of research and contribute something new to the field that has never been done before.
 ]
 
-Job-wise, a CS PhD is the standard credential for positions where doing research _is_ the job. In academia, it is a hard requirement for tenure-track professorships (@sec:faculty-types) and most postdoc and research faculty roles. In industry, it is expected (and often required) for titles like _research scientist_ or _applied scientist_ at places such as Google DeepMind, Microsoft Research, and Meta AI, and it is highly valued for researcher and senior R&D roles. It also qualifies you for research staff positions at national labs (e.g., Sandia, Oak Ridge) and government agencies, (e.g., NSF, DOE, Defense Research) and for founding or early technical roles at deep-tech startups. Note that for _ordinary software engineering_ jobs, however, a PhD is rarely required (though Google and Amazon often hire PhDs as software engineers)---the degree pays off specifically when the job involves open-ended problems no one yet knows how to solve.
+Job-wise, a CS PhD is the standard credential for positions where doing research _is_ the job. In academia, it is a hard requirement for tenure-track professorships (@sec:faculty-types) and most postdoc and research faculty roles. In industry, it is expected, and often required, for titles like _research scientist_ or _applied scientist_ at places such as Google DeepMind, Microsoft Research, and Meta AI, and it is highly valued for researcher and senior R&D roles. It also qualifies you for research staff positions at national labs (e.g., Sandia, Oak Ridge) and government agencies, (e.g., NSF, DOE, Defense Research) and for founding or early technical roles at deep-tech startups. Note that for _ordinary software engineering_ jobs, however, a PhD is rarely required (though Google and Amazon often hire PhDs as software engineers)---the degree pays off specifically when the job involves open-ended problems no one yet knows how to solve.
 
 
 
@@ -356,7 +358,7 @@ Job-wise, a CS PhD is the standard credential for positions where doing research
   caption: [Where new CS PhDs went in North America (2023--24). Most go to industry, but academia remains strong (#link("https://cra.org/crn/2025/06/cra-update-new-cra-taulbee-survey-findings-show-record-doctoral-production-rising-enrollment-and-shifting-undergraduate-trends/")[CRA Taulbee Survey 2024]).],
 ) <fig:phd-destinations>
 
-#note-block[A PhD in CS is not just a degree, it is a *journey* that transforms you into a researcher. You will learn how to think critically, solve problems, deal with adversity, and work independently. You will also learn how to write and "sell" your work, collaborate with others, and effectively communicate your ideas. In the end, you will know about your research topic more than *anyone* else in the world, including, in many cases, your advisor! This is a scary thought, but it is also exciting and rewarding.]
+In short, a PhD in CS is not just a degree, it is a *journey* that transforms you into a researcher. You will learn how to think critically, solve problems, deal with adversity, and work independently. You will also learn how to write and "sell" your work, collaborate with others, and effectively communicate your ideas. In the end, you will know about your research topic more than *anyone* else in the world, including, in many cases, your advisor! This is a scary thought, but it is also exciting and rewarding.
 
 
 === CS Fields and Areas <sec:fields-and-areas>
@@ -537,7 +539,7 @@ text(size: 0.9em,
     
 - *Work-life Balance*: PhD students in the US are often said to be overworked compared to other countries, e.g., in Europe. This is partly due to the longer PhD program and that US PhD students are often paid through GTA, which requires them to do GTA in addition to their own research. In contrast, PhD students in other countries are often paid through fellowships, which might not require doing GTA.
     #caution-block[
-      Work-life balance is more of a personal and cultural issue (@chap:cultural) than a regulatory one. US academia is known for its intense work culture, because students themselves are fiercely competitive (after reading this book you would see how competitive it is to get into a good PhD program in the US), and opportunities for research and funding are abundant. All of these contribute to a systems that favors those who work hard and produce results, which can create a culture of long hours and high stress.
+      Work-life balance is more of a personal and cultural issue (@chap:cultural). US academia is known for its intense work culture, because students themselves are fiercely competitive (after reading this book you would see how competitive it is to get into a good PhD program in the US), and opportunities for research and funding are abundant. All of these contribute to a systems that favors those who work hard and produce results, which creates a culture of long hours and high stress.
     ]
 
 
@@ -562,21 +564,6 @@ text(size: 0.9em,
 // % \end{table}
 // % \section{Why the US and not other countries?}
 // %
-
-=== Waiving Application Fee <sec:fee-waive>
-
-Most PhD programs do not waive the application fee, which is typically set by the university and not the department. Individual departments and programs usually do not have the authority to waive the application fee, even if they want to.
-
-However, some universities _do_ waive the fee, e.g., Rice and TTIC do not charge a fee for PhD applications, and many universities waive fees for domestic students (@chap:domestic-students).
-Some programs also waive the fee if applicants attend their open house or information sessions. Others may waive the fee if the applicant provides proof of _financial hardship_, such as a statement from a financial advisor or a bank statement.
-
-
-
-#note-block[
-  Requiring an application fee helps ensure that applicants are serious, as it discourages non-serious candidates. Most CS programs already receive _far too many applications_ and would be overwhelmed if the process were free---_"hey, it's free, so I can just apply to as many schools as I want to increase my chances."_ Even with an application fee, competition is already very tough; imagine if the application were free and the number of applications tripled or quadrupled.
-
-  If you have financial difficulties, you can ask the department for a waiver, but this is typically only granted in exceptional cases.
-]
 
 
 == How Is Your Application Evaluated? <chap:evalapps>
@@ -723,16 +710,38 @@ The CS PhD application process spans almost a full year, from the time you start
 
 #tip-block[A common mistake is starting the application process too late. As you can see, there are many things to do, and some of them do not depend on you, e.g., waiting for LORs. So _start early_ and give yourself enough time to prepare a strong application and to reduce stress.]
 
+=== Waiving Application Fee <sec:fee-waive>
+
+Most PhD programs do not waive the application fee, which is typically set by the university and not the department. Individual departments and programs usually do not have the authority to waive the application fee, even if they want to.
+
+However, some universities _do_ waive the fee, e.g., Rice and TTIC do not charge a fee for PhD applications, and many universities waive fees for domestic students (@chap:domestic-students).
+Some programs also waive the fee if applicants attend their open house or information sessions. Others may waive the fee if the applicant provides proof of _financial hardship_, such as a statement from a financial advisor or a bank statement.
+
+
+
+#note-block[
+  Requiring an application fee helps ensure that applicants are serious, as it discourages non-serious candidates. Most CS programs already receive _far too many applications_ and would be overwhelmed if the process were free---_"hey, it's free, so I can just apply to as many schools as I want to increase my chances."_ Even with an application fee, competition is already very tough; imagine if the application were free and the number of applications tripled or quadrupled.
+
+  If you have financial difficulties, you can ask the department for a waiver, but this is typically only granted in exceptional cases.
+]
+
 
 == Caution: It is a lot harder to get into a CS PhD program nowadays <sec:harder-now>
 
 Getting into a CS PhD program has always and will always be competitive. However, it is now _much harder_ than it was 5 years ago, and even more so than 10 years ago. IMO, this is due to three emerging trends:
 
-+ *Lack of TA resources due to low enrollment*: Students graduating without jobs in CS are now common, which discourages students from pursuing a CS degree, especially at the undergraduate and MS levels where students pay tuition and do not get funded.  This has led to an _alarming decline in enrollment_, which significantly reduces the number of TA positions available to fund PhD students.
++ *Lack of TA resources due to low enrollment*: CS students graduating without jobs are now common, which discourages students from pursuing a CS degree, especially at the undergraduate and MS levels where students often have to pay tuition and do not get funded.  
+
+  This has led to an _alarming decline in enrollment_, putting many programs in "survival mode" and forcing them to cut back on student supports, such as 
+  _significantly reduction in TA positions for PhD students_. 
   
-+ *More difficult to get funding for faculty*: In recent years, federal funding for research, such as from NSF or NIH, has been declining. Some areas of research are no longer deem necessary or relevant, and thus are not funded. This means that faculty have less money to fund new PhD students (e.g., as RAs). More generally, when things become uncertain, faculty are more cautious about taking on new students, especially if they are not sure whether they can fund them. 
++ *More difficult to get funding for faculty*: In recent years, federal funding for research, such as from NSF or NIH, has been declining. Some areas of research are no longer deem necessary or relevant, and thus are not funded. 
+
+  This means that faculty have less research funding to fund new PhD students (e.g., as RAs). More generally, when things become uncertain, faculty are more cautious about taking on new students, especially if they are not sure whether they can fund them. 
   
-+ *AI/ML can replace students in many areas*: AI/ML is now capable of doing many tasks that students used to do, e.g., writing code, analyzing data, and even writing papers. One of the main tasks of a PhD student is to help a faculty member carry out their research ideas (e.g., implementing and evaluating them). Thus, as harsh as it sounds, if AI/ML can do that, then faculty may not invest their time and increasily scared resources in students.  This is a new trend that is likely to continue in the future---the same way with software development and many other areas. 
++ *AI/ML can replace students in many areas*: AI/ML is now capable of doing many tasks that students used to do, e.g., writing code, analyzing data, and even writing papers. 
+
+  One of the main tasks of a PhD student is to help a faculty member carry out their research ideas (e.g., implementing and evaluating them). Thus, as harsh as it sounds, if AI/ML can do that, then faculty may not invest their time and increasingly scared resources in students.  This is a new trend that is likely to continue in the future---the same way with software development and many other areas (e.g., tech companies are cutting back on hiring and even laying off employees because AI/ML can do their jobs).
 
 
 
@@ -744,7 +753,7 @@ Getting into a CS PhD program has always and will always be competitive. However
 #simpsons[Son, if you really want something in this life, you have to work for it. Now quiet! They're about to announce the lottery numbers.]
 
 
-The goal of #gls("adcom") is not to reward the applicant who collected the most credentials. It is to find students with credible research potential whom the department can actually advise and support. The emphasis is #highlight[_matching_], which varies from school to school, faculty to faculty, and even from year to year. @sec:ievaluate shows exactly how I turn these materials into an admission recommendation.
+The goal of #gls("adcom") is not to reward the applicant who collected the most credentials. It is to find students with credible research potential whom faculty from the department can actually advise and support. The emphasis is #highlight[_matching_], which varies from school to school, faculty to faculty (@sec:ievaluate shows how I review applications), and even from year to year. 
 
 The committee considers many factors, but the most important are #gls("LOR", first:true), #gls("SOP", first:true), and research experience, including publications and serious projects.
 
@@ -760,8 +769,6 @@ The committee considers many factors, but the most important are #gls("LOR", fir
 ) <fig:lor-comic>
 
 #gls("LOR",plural:true) are crucial for PhD because (i) they paint a picture of your research ability and potential from someone who has worked closely with you, and (ii) adcom trust the opinions of your LOR writers, who are usually faculty members or researchers who have the expertise and reputation to evaluate your research ability (@sec:LOR-writers).
-
-#example-box[*My decision rule:* A detailed letter from an unknown researcher who supervised you closely is usually more useful than a vague letter from a celebrity. Prestige makes me notice a letter; specific evidence makes me believe it. In my actual review process (@sec:ievaluate), a letter becomes decisive when it tells me what _you_ did and why that predicts research success.]
 
 
 === LOR Writers <sec:LOR-writers>
@@ -807,7 +814,7 @@ Thus it might be a good idea to directly ask if the prof. is willing to write a 
 ])
 
 
-==== From Dept Chair, Dean, or Supervisor at Work <sec:admin-letters>
+==== LoRs From Dept Chair, Dean, or Supervisor at Work <sec:admin-letters>
 
 Many students, especially international applicants, try to get LORs from high-ranking administrators in their universities such as department chair/head, dean, or director. The students never worked with these people (they might take a class or so with these profs), but mistakenly believe that these LORs are valuable due to the writer's high position in the university.
 However, as mentioned in @sec:generic-letters such a generic LOR has little value because the writer does not know you well and can talk in depth about your research ability. 
@@ -861,7 +868,7 @@ As mentioned in @sec:LOR-writers, LOR writers should be someone who knows you we
 
 #figure(
   image("files/no-bandwidth.jpeg", width: 60%),
-  caption: [#link("https://www.reddit.com/r/gradadmissions/comments/1oibrgy/i_feel_lost_my_prof_i_worked_with_for_a_year_and/")[Reddit]!],
+  caption: [#link("https://www.reddit.com/r/gradadmissions/comments/1oibrgy/i_feel_lost_my_prof_i_worked_with_for_a_year_and/")[From Reddit]!],
 ) <fig:no-bandwidth>
 
 Many students get stress asking for LORs because they worry that the writers might refuse to write for them (@fig:no-bandwidth is meant to be a joke but reflects a common concern). However, in my experience, most writers are willing to write for students who have worked with them and done well. Below are some tips to approach your LOR writers:
