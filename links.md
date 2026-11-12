@@ -121,3 +121,5 @@
 ###  2.6. <a name='ContactingCold-EmailingProfessors'></a>Contacting / Cold-Emailing Professors
 1. [Advice on Contacting Faculty for Prospective Research Students by Dave Evan](https://uvasrg.github.io/prospective/)
 
+1. [ProfScout Professor Directory](https://profscout.com/professors/directory) - Free lists of professors by field and country, with verified faculty marked.
+
