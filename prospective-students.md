@@ -36,6 +36,7 @@ Explore research, decide whether a PhD fits your goals, and prepare an applicati
 - [Research program admissions](https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/) — Berkeley EECS’s example of how a department presents degree options and application requirements.
 - [Post-Baccalaureate Research Education Program](https://grad.berkeley.edu/admissions/why-berkeley/post-baccalaureate-research-education-program/) — Berkeley’s research preparation program for graduates considering doctoral study.
 - [How to Do Research With a Professor](<https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html>) — Jason Eisner on what a first faculty research collaboration involves, including time commitments, meetings, and communication.
+- [How to Apply to a PhD in Computer Science](https://www.cs.jhu.edu/~aadelucia/blog/2025/apply-phd/) — Alexandra DeLucia, a Johns Hopkins CS PhD student who has served as an admissions reader, on preparing the CV, statement of purpose, letters, and optional personal statement (2025).
 
 ## Statements and recommendation letters
 

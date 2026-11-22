@@ -16,6 +16,7 @@ A guide to the computer science faculty job market in the United States. Start b
 - [CMU Computer Science faculty hiring](https://www.csd.cmu.edu/employment/faculty-hiring) and [UW–Madison Computer Sciences recruitment](https://www.cs.wisc.edu/people/faculty-staff-recruitment/) — examples of departmental job pages and application instructions.
 - [CRA Taulbee Survey](https://cra.org/resources/taulbee-survey/) — data on computing doctoral enrollment, degree production, and employment.
 - [A Periodic Table of Faculty Job Titles at US Universities](<https://shomir.net/faculty_periodic_table.html>) — Shomir Wilson explains U.S. faculty job titles and the appointment types applicants may encounter.
+- [Teaching Track Faculty](https://www.cs.cmu.edu/education/teaching-faculty/) — Carnegie Mellon School of Computer Science’s description of teaching-track ranks, appointment terms, and duties; CMU-specific, useful for comparing a teaching-track offer with a tenure-track role.
 
 ## Planning the search
 
@@ -26,6 +27,7 @@ A guide to the computer science faculty job market in the United States. Start b
 - [Guide for the CS and IS Tenure-Track Job Market](https://shomir.net/tt_job_guide.html) — Shomir Wilson on timelines, applications, interviews, and offers.
 - [Reflections on the CS academic and industry job markets](https://rowanzellers.com/blog/rowan-job-search/) — Rowan Zellers on applying to research jobs and faculty roles.
 - [PhD Academic Job Search](https://career.engin.umich.edu/phd-academic-job-search/) — Michigan Engineering’s timeline and job search resources.
+- [The Academic Job Search: My Experience, Retrospective, and Advice](https://rohany.github.io/blog/job-search/) — Rohan Yadav’s account of a 2025–2026 tenure-track search in programming languages and high-performance computing, from applications through video and campus interviews.
 
 ## Application materials and examples
 

@@ -36,6 +36,7 @@ Resources for starting a faculty position, building a research group, advising a
 - [Manage your NSF award](https://www.nsf.gov/awards) — post-award reporting, points of contact, and requests for award changes.
 - [U.S. Department of Energy Early Career Research Program](https://science.osti.gov/early-career) and [DARPA Young Faculty Award](https://www.darpa.mil/work-with-us/communities/academia/young-faculty-award) — additional federal programs to check for fit and eligibility.
 - [Catalyzing Interdisciplinary Computing Research](https://cra.org/wp-content/uploads/2024/08/Catalyzing-Interdisciplinary-Computing-Research-Best-Practices-for-Researchers_August-2024_FINAL.pdf) — CRA on building collaborations across disciplines.
+- [Advice on writing an NSF CAREER proposal—or any proposal](https://cragl.cs.gmu.edu/career.html) — Yotam Gingold’s Creativity and Graphics Lab at George Mason University, on writing for a broad-field panel and planning evaluation, risks, ethics, and data management; check the current CAREER solicitation for requirements.
 
 ## Research integrity and lab operations
 
