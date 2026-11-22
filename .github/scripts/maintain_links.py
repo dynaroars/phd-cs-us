@@ -361,7 +361,9 @@ def audit(candidates):
             "Use the exact existing file and section names. Return JSON only with this structure: "
             "{\"approved\":[{\"id\":1,\"file\":\"current-students.md\",\"section\":\"Research and reading\","
             "\"title\":\"Source title\",\"annotation\":\"Author or organization and the practical use.\"}]}. "
-            "An empty approved array is fine. Supply only plain text title and annotation.\n"
+            "An empty approved array is fine. Supply only plain text title and annotation. "
+            "Use the source's stated title and byline and describe what it provides. "
+            "Leave out affiliations, dates, and other details that the retrieved source does not establish.\n"
             + Path("MAINTENANCE.md").read_text()
             + "\n" + json.dumps({
                 "sections": sections, "resources": evidence,
