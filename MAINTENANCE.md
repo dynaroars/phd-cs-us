@@ -28,3 +28,9 @@ Place a resource where its main audience will look for it. Cross-link to that se
 2. When a request is blocked, try the page in a browser or check an indexed copy and the publisher’s site. Record any links that remain unverified. For a moved resource, prefer the new author or institutional URL. For a removed resource, look for a verified archive snapshot and label it as archived. If the original is unrecoverable, document any removal or substitute in the change summary.
 3. Check Markdown rendering, table-of-contents anchors, relative file paths, and cross-guide links. Before replacing or deleting an existing list, compare its links against the new destinations and account for redirects, mirrors, and intentional removals. Keep a pointer at an old path when it serves as a useful entry point.
 4. Review the diff for duplicate entries and unrelated changes. Summarize the topics added, meaningful link repairs, and verification limits so a future refresh can pick up where this one ended.
+
+## Scheduled link reviews
+
+The [GitHub Actions workflow](.github/workflows/academic-guide-links.yml) runs on Tuesdays and Fridays at 9:23 a.m. Eastern. Claude Haiku shortlists new resources from web search and recent upstream forks. When it finds candidates, the workflow opens a GitHub issue with the shortlist. GPT-6.2 Astra then reviews the retrieved sources against this playbook and the existing guides. The workflow commits approved links, requests a GitHub Pages rebuild, and closes the issue with the outcome. Each run can shortlist up to eight candidates and add up to four links.
+
+Use the `check_models` input on a manual run to check Copilot access without publishing anything. The workflow uses its built-in GitHub token and the repository owner’s Copilot billing and model policies.
