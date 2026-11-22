@@ -15,6 +15,7 @@ A guide to the computer science faculty job market in the United States. Start b
 - [CRA teaching faculty resources](https://cra.org/teaching-faculty/) — hiring and evaluation practices for teaching-focused computing roles.
 - [CMU Computer Science faculty hiring](https://www.csd.cmu.edu/employment/faculty-hiring) and [UW–Madison Computer Sciences recruitment](https://www.cs.wisc.edu/people/faculty-staff-recruitment/) — examples of departmental job pages and application instructions.
 - [CRA Taulbee Survey](https://cra.org/resources/taulbee-survey/) — data on computing doctoral enrollment, degree production, and employment.
+- [A Periodic Table of Faculty Job Titles at US Universities](<https://shomir.net/faculty_periodic_table.html>) — Shomir Wilson explains U.S. faculty job titles and the appointment types applicants may encounter.
 
 ## Planning the search
 

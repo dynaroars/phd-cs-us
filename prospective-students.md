@@ -35,6 +35,7 @@ Explore research, decide whether a PhD fits your goals, and prepare an applicati
 - [For potential PhD students](https://math.stanford.edu/~vakil/potentialstudents.html) — Ravi Vakil’s advice for math applicants, including how to assess research fit.
 - [Research program admissions](https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/) — Berkeley EECS’s example of how a department presents degree options and application requirements.
 - [Post-Baccalaureate Research Education Program](https://grad.berkeley.edu/admissions/why-berkeley/post-baccalaureate-research-education-program/) — Berkeley’s research preparation program for graduates considering doctoral study.
+- [How to Do Research With a Professor](<https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html>) — Jason Eisner on what a first faculty research collaboration involves, including time commitments, meetings, and communication.
 
 ## Statements and recommendation letters
 
