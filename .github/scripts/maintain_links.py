@@ -231,7 +231,7 @@ def model(which, prompt):
     args = [
         "copilot", "--model", os.environ[which], "--silent", "--no-color",
         "--no-auto-update", "--no-ask-user", "--no-custom-instructions",
-        "--disable-builtin-mcps", "--deny-tool=*",
+        "--disable-builtin-mcps", "--available-tools=report_intent",
     ]
     result = subprocess.run(
         [*args, "--prompt", prompt.replace("@", "\\u0040")],
