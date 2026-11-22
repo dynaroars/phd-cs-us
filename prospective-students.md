@@ -20,6 +20,8 @@ Explore research, decide whether a PhD fits your goals, and prepare an applicati
 - [Getting into graduate school in science, engineering, math, or CS](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/) — Matt Might.
 - [PhD applications FAQ](https://docs.google.com/document/d/1lT-bsIP0GKfh8l5sQnM2hCzzR9prt-QLx16rimUOdIM/edit) — Noah Smith.
 - [PhD admissions FAQ](https://talkingtorobots.com/FAQ.html) — Yonatan Bisk’s advice for applicants, with notes on CMU.
+- [Graduate admissions at Carnegie Mellon](https://www.cs.cmu.edu/~sef/Grad%20Admissions.htm) — Scott Fahlman explains how the School of Computer Science’s departmental admissions committees work.
+- [Advice on applying for graduate study](https://www.andrew.cmu.edu/user/avigad/Misc/grad_study.html) — Jeremy Avigad on how admissions committees read applications and how applicants can assess program fit.
 - [Reflecting on CS Graduate Admissions](https://da-data.blogspot.com/2015/03/reflecting-on-cs-graduate-admissions.html) — David Andersen.
 - [Contacting faculty as a prospective research student](https://uvasrg.github.io/prospective/) — David Evans.
 - [The PhD in CS: Getting There and Being Successful](https://www.youtube.com/watch?v=Qn7eUeNw6vI) — CRA-E webinar.
