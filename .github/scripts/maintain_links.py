@@ -227,7 +227,7 @@ def index_candidates(known):
     return list(pool.values())[:95]
 
 
-def model(which, prompt):
+def model(which, prompt, expected_key):
     args = [
         "copilot", "--model", os.environ[which], "--silent", "--no-color",
         "--no-auto-update", "--no-ask-user", "--no-custom-instructions",
@@ -241,9 +241,18 @@ def model(which, prompt):
         raise RuntimeError(
             f"Copilot failed for {os.environ[which]}: {plain(result.stderr or result.stdout, 600)}"
         )
-    raw = result.stdout.strip()
-    raw = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", raw, flags=re.I)
-    return json.loads(raw)
+    decoder = json.JSONDecoder()
+    objects = []
+    for match in re.finditer(r"\{", result.stdout):
+        try:
+            value, _ = decoder.raw_decode(result.stdout[match.start():])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(value, dict) and expected_key in value:
+            objects.append(value)
+    if not objects:
+        raise ValueError(f"Copilot omitted {expected_key} from its response: {plain(result.stdout, 240)}")
+    return objects[-1]
 
 
 def prior_reviews():
@@ -271,7 +280,7 @@ def scout():
             + Path("MAINTENANCE.md").read_text()
             + "\n" + json.dumps({"sections": sections, "candidates": pool}, ensure_ascii=False)
         )
-        ids = {i for i in model("SCOUT_MODEL", request)["ids"][:8] if isinstance(i, int)}
+        ids = {i for i in model("SCOUT_MODEL", request, "ids")["ids"][:8] if isinstance(i, int)}
         chosen = [item for item in pool if item["id"] in ids]
     output("candidates", json.dumps(chosen, ensure_ascii=True, separators=(",", ":")))
     print(f"Discovered {len(pool)} eligible URLs and shortlisted {len(chosen)}.")
@@ -363,7 +372,7 @@ def audit(candidates):
             }, ensure_ascii=False)
         )
         verified = {row["id"]: row for row in evidence}
-        for row in model("AUDIT_MODEL", request)["approved"][:4]:
+        for row in model("AUDIT_MODEL", request, "approved")["approved"][:4]:
             page = verified.get(row["id"])
             filename, section = row["file"], row["section"]
             if not page or section not in sections.get(filename, []) or section == "Related guides":
@@ -411,7 +420,8 @@ def publish(approved, number):
         command("git", "push", "origin", f"HEAD:{os.environ['DEFAULT_BRANCH']}")
     committed = command("git", "log", "-1", "--format=%H", "--fixed-strings", "--grep", message)
     if committed:
-        command("gh", "workflow", "run", "pages.yml", "--ref", os.environ["DEFAULT_BRANCH"])
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            command("gh", "workflow", "run", "pages.yml", "--ref", os.environ["DEFAULT_BRANCH"])
         body = "The audit added approved links in commit " + committed[:12] + "."
         if added:
             body += "\n\n" + "\n".join("- " + item for item in added)
@@ -434,7 +444,7 @@ def main():
         publish(json.loads(os.environ["APPROVED"]), int(os.environ["ISSUE_NUMBER"]))
     else:
         for name in ("SCOUT_MODEL", "AUDIT_MODEL"):
-            response = model(name, 'Reply with exactly this JSON object: {"ready":true}')
+            response = model(name, 'Reply with exactly this JSON object: {"ready":true}', "ready")
             if response != {"ready": True}:
                 raise ValueError(f"Unexpected response from {os.environ[name]}")
             print(f"{name} is available: {os.environ[name]}", flush=True)

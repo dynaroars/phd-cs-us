@@ -19,7 +19,7 @@ concurrency:
 
 env:
   SCOUT_MODEL: claude-haiku-4.5
-  AUDIT_MODEL: gpt-6.2-astra
+  AUDIT_MODEL: gpt-5.3-codex
   DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
 jobs:
@@ -43,6 +43,7 @@ jobs:
         run: python3 .github/scripts/maintain_links.py check-models
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.ACADEMIC_GUIDE_COPILOT_TOKEN || github.token }}
       - name: Find and shortlist resources
         id: scout
         if: inputs.check_models != true
@@ -50,6 +51,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.ACADEMIC_GUIDE_COPILOT_TOKEN || github.token }}
 
   record:
     needs: discover
@@ -91,6 +93,7 @@ jobs:
         run: python3 .github/scripts/maintain_links.py audit
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.ACADEMIC_GUIDE_COPILOT_TOKEN || github.token }}
           CANDIDATES: ${{ needs.discover.outputs.candidates }}
 
   publish:
