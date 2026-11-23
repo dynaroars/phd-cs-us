@@ -70,6 +70,7 @@ Resources for starting a faculty position, building a research group, advising a
 - [A Short Guide to the Tenure Process](https://facultydevelopment.cornell.edu/faculty-development/tenure-and-promotion/a-short-guide-to-the-tenure-process/) and [Cornell’s faculty handbook on tenure-track promotions](https://deanoffaculty.cornell.edu/policies-procedures/faculty-handbook/4-tenure-track-promotions-2/) — institutional examples for understanding review and dossier expectations.
 - [Evaluating Scholarship in Hiring, Tenure, and Promotion](https://cra.org/wp-content/uploads/2016/02/BP_Memo.pdf) — CRA’s memo on evaluating the quality and impact of computing scholarship.
 - [Promotion and Tenure of Interdisciplinary Faculty](https://archive.cra.org/reports/promotion_tenure.html) — CRA’s guidance on recognizing work that crosses departmental boundaries.
+- [Hiring and Promotion Guidance for Computing Researchers](https://cra.org/wp-content/uploads/2025/09/Hiring-and-Promotion-Guidance-for-Computing-Researchers.pdf) — CRA’s 2025 update on evaluating research, teaching, mentoring, service, and external letters across universities and labs; use it to explain your contributions in a promotion case.
 
 ## Related guides
 

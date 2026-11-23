@@ -17,6 +17,7 @@ A guide to the computer science faculty job market in the United States. Start b
 - [CRA Taulbee Survey](https://cra.org/resources/taulbee-survey/) — data on computing doctoral enrollment, degree production, and employment.
 - [A Periodic Table of Faculty Job Titles at US Universities](<https://shomir.net/faculty_periodic_table.html>) — Shomir Wilson explains U.S. faculty job titles and the appointment types applicants may encounter.
 - [Teaching Track Faculty](https://www.cs.cmu.edu/education/teaching-faculty/) — Carnegie Mellon School of Computer Science’s description of teaching-track ranks, appointment terms, and duties; CMU-specific, useful for comparing a teaching-track offer with a tenure-track role.
+- [Fall Jobs Post 2026](https://blog.computationalcomplexity.org/2026/11/fall-jobs-post-2026.html) — Lance Fortnow’s annual outlook on the faculty job market, focused on theoretical computer science, with application advice and links to theory, CRA, and ACM job boards (November 2026).
 
 ## Planning the search
 
