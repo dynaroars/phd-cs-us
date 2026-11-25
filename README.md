@@ -22,6 +22,6 @@
 
 ## Sources and contributions
 
-The resource collection started with [Paul Liang’s Awesome PhD Advice](https://github.com/pliang279/awesome-phd-advice) and includes additions from the [pedagand fork](https://github.com/pedagand/awesome-phd-advice) and [DeeDive’s reading logs](https://github.com/DeeDive/awesome-phd-advice-reading-logs).
+The resource collection started with [Paul Liang’s Awesome PhD Advice](https://github.com/pliang279/awesome-phd-advice).
 
 For a question or a broken link, [open a GitHub issue](https://github.com/dynaroars/phd-cs-us/issues). For a resource addition or a larger refresh, see the [maintenance playbook](MAINTENANCE.md).
