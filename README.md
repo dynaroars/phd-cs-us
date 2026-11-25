@@ -8,7 +8,7 @@
 
 ## Academic guides
 
-| Stage | What you’ll find |
+| Stage | |
 | --- | --- |
 | [Prospective PhD students](prospective-students.md) | Research experience, applications, statements, advisor fit, funding, and international study |
 | [Current PhD students](current-students.md) | Advising, research, writing, teaching, dissertation milestones, and careers |
