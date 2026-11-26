@@ -37,16 +37,17 @@
 
 #emph-block[These notes are accumulated from my experience and reflections. I usually work on it when I am writing my own proposal or reviewing other proposals, and just want to write down my thoughts as they are still fresh in my mind.]
 
-
 = Submission Process and Timeline 
 
   
 == Submission and the role of OSP
 Your *Office of Sponsored Program* (OSP) or some equivalent unit will submit your proposal to NSF (through #link("https://research.gov")[research.gov]). You will need to work with them to submit your proposal.  Several things to pay attention to:
-  - OSP often has their internal deadline, which can be a few days to a couple of weeks (for large universities with many proposal submissions) before the actual proposal deadline. In such case, OSP often ask you to submit everything to them or upload directly to research.gov by their internal deadline.
-  -  During the proposal writing process, OSP mainly helps with the budget and budget justification based on your input. If the proposal is collaborative, they will also help with the sub-award budget and justification.
-  - After sending materials to OSP, they check compliance with NSF's requirements (e.g., formatting, font size, page limits, required sections, etc). This is because NSF can return your proposal without review if it doesn't meet the requirements. OSP typically will not check the technical content of your proposal.
+  - OSP often has their _internal deadline_, which can be a few days to a couple of weeks (for large universities with many proposal submissions) before the actual proposal deadline. In such case, OSP often ask you to submit everything to them or upload directly to `research.gov` by their internal deadline.
+  -  OSP mainly helps with the budget and budget justification based on your input. If the proposal is collaborative, they will also help with the sub-award budget and justification.
+  - After sending materials to OSP, they check compliance with NSF's requirements (e.g., formatting, font size, page limits, required sections, etc). This is because NSF can return your proposal without review if it doesn't meet the requirements. OSP *does not* check the technical content of your proposal.
   - OSP can submit your proposal any time after their internal deadline and before the actual proposal deadline (so don't assume they will submit on the day of the actual deadline, they might submit a few days before).
+
+#warning-block[Dealing with OSP can be very frustrating! As a faculty, you are used to work overtime and holidays to meet deadlines, OSP staff don't have the same flexibility and also are quite busy with many other proposals.  Moreover, things that you think can be done in a few hours might take a few days for OSP to complete, because university is a large bureaucracy and OSP staff have to follow the university's internal procedures and policies. So plan ahead and give them enough time to process your proposal.]   
   
 
 
@@ -99,19 +100,31 @@ However, this is likely based on the suggestion from the panel as the PM rarely 
 
 == Assumption that the reviewers are knowledgeable
 
-Usually experienced proposal writers do not have this problem, but new proposal writers sometimes assume that the reviewers are knowledgeable about the topic or field. The truth is reviewers, while work in your general area, might not be familiar with your specific topic.  For example, they work in the area of _Software Engineering_ or _Formal Methods_, but they might be familiar with topics such as _gradual refinement type_ or _neural network verification_.
+Reviewers, while work in your general area, might not be familiar with your specific topic.
+For example, they work in the area of _Software Engineering_ or _Formal Methods_, but they might be familiar with topics such as _gradual refinement type_ or _neural network verification_.
 
-Thus, your job is not to convince the small group of people who work in your topic (well they probably already like your work, or hate it), but to convince the more general reviewers who are not experts in your topic that your work is important and worth funding (now imagine those reviewers in turn need to convince the NSF program officers who are also not experts in your topic, who in turn need to convince the NSF director who is even less familiar with your topic).  
+Thus, your job is not to convince the small group of people who work in your topic (well they probably already like your work, or hate it), but to convince the more general reviewers who are not experts in your topic that your work is important and worth funding (imagine those reviewers in turn need to convince the NSF program officers who are also not experts in your topic, who in turn need to convince the NSF director who is even less familiar with your topic).  
 
-#highlight[So motivate, use examples to demonstrate, and explain your work in a way that is accessible to a general audience. Better yet, have someone who is not an expert in your topic read your proposal and give you feedback on whether they understand the motivation, the problem, and the proposed solution. Usualy they just need to read the introduction to give you this feedback.
-].
+#emph-block[So clearly state the problem, motivate it by using real-world examples to demonstrate, and explain your work in a way that is accessible to a general audience. Better yet, have someone who is not an expert in your topic read your proposal and give you feedback on whether they understand the motivation, the problem, and the proposed solution. Usualy they just need to read the introduction to give you this feedback.
+]
 
-#rect[In my experience, proposals that are a bit heavy on foundations and theories often have this problem.  This could be a cultural issue in some research communities (e.g., theoretical papers often start with some very technical theorem or definition and the reviewers are expected to understand and able to follow them).]
-
-== Lack of clear motivation or problem statement.
-
+#remark-block[
+In my experience, proposals that are a bit heavy on foundations and theories often have this problem.  This could be a cultural issue in some research communities (e.g., theoretical papers often start with some very technical theorem or definition and the reviewers are expected to understand and able to follow them).
+]
 
 == Lack of convincing prior work or preliminary results or PIs' expertise in the area.
+
+Reviewers often want to see that the PIs have done some preliminary work related to the proposed topic or have some results to show that the proposed work is feasible and likely to succeed.
+Having published in the more general venues is helpful, but not sufficient. For example, if I propose to work in neural network verification, then I should have some work related to the analysis and reasoning of neural networks, and not just work on general formal methods or software engineering.
+
+#emph-block[So have a clear section or paragraph that describes the PIs' prior work and results related to the proposed topic, and how they are relevant to the proposed work.  Even if the work is unpublished, provide some preliminary results results (tables or graphs).]
+]
+
+
+Another issue to pay attention to is the PI's prior work might be in lower-tier not well-known venues. The reviewers might question the quality of the PI's prior work and whether they have the expertise to do the proposed work.   
+
+
+
 - Get collaborators (and include letters of support from them)
 
 === Wall of text or tons of formulae
