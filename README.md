@@ -15,6 +15,8 @@
 | [Faculty applications](faculty-applications.md) | Finding positions, assembling your application, interviewing, and negotiating offers |
 | [Faculty resources](faculty-resources.md) | Building a lab, mentoring, grants, teaching, service, tenure, and promotion |
 
+Each link shows when its source was last updated, and each section lists the most recently updated resources first.
+
 ## More from ThanhVu Nguyen
 
 - [ROARS Lab Advising Guide](https://roars.dev/phd-cs-us/advising.pdf) — answers to common questions about advising, lab culture, and what it means to fit in the ROARS Lab.

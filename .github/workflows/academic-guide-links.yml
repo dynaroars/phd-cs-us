@@ -118,3 +118,36 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           APPROVED: ${{ needs.audit.outputs.approved }}
           ISSUE_NUMBER: ${{ needs.record.outputs.number }}
+
+  dates:
+    needs: [discover, publish]
+    if: ${{ !cancelled() && inputs.check_models != true && needs.discover.result == 'success' && needs.publish.result != 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - name: Label links with update dates and sort sections newest first
+        run: python3 .github/scripts/link_dates.py --verbose
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit and publish changed dates
+        run: |
+          if git diff --quiet -- '*.md'; then
+            echo "Link dates and order are current."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- prospective-students.md current-students.md faculty-applications.md faculty-resources.md
+          git diff --cached --check
+          git commit -m 'Refresh academic guide link dates'
+          git push origin "HEAD:$DEFAULT_BRANCH"
+          gh workflow run pages.yml --ref "$DEFAULT_BRANCH"
+        env:
+          GH_TOKEN: ${{ github.token }}
