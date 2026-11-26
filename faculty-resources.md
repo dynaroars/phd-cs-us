@@ -15,7 +15,7 @@ Resources for starting a faculty position, building a research group, advising a
 
 ## Building a lab and mentoring
 
-- [ROARS Lab Manual](lab-manual.pdf) and [ROARS Lab Advising Guide](advising.pdf) — ThanhVu Nguyen’s examples of lab expectations and advising practices. (updated Nov 2026)
+- [ROARS Lab Manual](https://github.com/dynaroars/dynaroars.github.io/wiki) and [ROARS Lab Advising Guide](advising.pdf) — ThanhVu Nguyen’s examples of lab expectations and advising practices. (updated Nov 2026)
 - [An open lab manual](https://www.compgeolab.org/manual/) — Computer-Oriented Geoscience Lab’s example of documenting group practices. (updated Nov 2026)
 - [How to Mentor Graduate Students](https://rackham.umich.edu/wp-content/uploads/2024/10/faculty-mentoring-handbook-2024.pdf) — Michigan Rackham’s faculty mentoring handbook. (updated Oct 2024)
 - [A guide to setting up and managing a lab at a research-intensive institution](https://link.springer.com/article/10.1186/s12919-021-00214-7) — practical advice on hiring, budgeting, and leadership. (updated Jun 2021)

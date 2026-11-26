@@ -26,7 +26,7 @@ jobs:
         run: |
           missing=0
           for f in demystify.typ demystify.pdf advising.typ advising.pdf \
-                   nnv.typ nnv.pdf lab-manual.pdf; do
+                   nnv.typ nnv.pdf; do
             if [ ! -f "$f" ]; then echo "::error file=$f::required file $f is missing"; missing=1; fi
           done
           exit $missing
