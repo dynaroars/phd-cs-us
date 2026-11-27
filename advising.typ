@@ -212,8 +212,8 @@ We target top-tier conferences in the field (e.g., ICSE, FSE, ASE, ISSTA, OOPSLA
 For work we wish to extend, we also publish in journals such as IEEE TSE.
 
 Ok, that was a boring neutral "academic" answer.
-The fact is that we don't just publish papers or produce boring incremental results, we focus on developing tools that actually work, win competitions, and receive awards.
-Our competitors are the best in the world and we enjoy #strong[beating them].
+The fact is that we don't just publish papers or produce boring incremental results, we focus on developing techniques and implement them in tools that actually work, win competitions, and receive awards.
+Our competitors are the best in the world and we enjoy _beating them_.
 For example, #link("https://code.roars.dev/neuralsat")[NeuralSAT] is often considered one of the best at neural network verification competition and outperforms many other state-of-the-art tools.
 
 We also explore new areas and venues if they are relevant to our research.
@@ -225,7 +225,7 @@ We have been quite successful in those venues as well (e.g., Highlight and Spotl
 We are working on various software analysis projects, including formalizing and proving mathematical theorems, neural network verification and inference, analysis on highly-configurable software, and program testing, analysis, and repair.
 
 Ok, cross out #strike[program repair] — I moved on from that.
-Nowadays I am more interested in applying formal methods and program analysis techniques to verifying and reasoning about neural networks and also formalizing and verifying software and maths using theorem provers (e.g., Lean 4).
+#link("https://bibtex.roars.dev")[Nowadays] I am more interested in applying formal methods and program analysis techniques to verifying and reasoning about neural networks and also formalizing and verifying software and maths using theorem provers (e.g., in Lean).
 
 == In general, do you tend to give your students projects or have them select their own? <sec:own-projects>
 
@@ -304,7 +304,7 @@ I haven't given a letter of concern yet, and I hope I never have to.
 But I would remind the student and give plenty of warnings if they need to get on track or are not meeting expectations.
 There is no surprise in my lab and you will know if you're not doing well.
 
-Here is the expected progress for my PhD student.
+Here is the expected progress (@sec:pubs) for my PhD student.
 By the end of the second year, you should publish at least a second-author paper.
 You are doing well if you publish a first-author paper at that time.
 By the end of the third year, you are considered behind if you do not publish a first-author paper and are seriously behind if no good submissions were made.
@@ -333,7 +333,7 @@ It is unlikely that you have to work on something you're not interested in.
 
 One of my responsibilities is finding funding to support my students, and I have been quite lucky to have sufficient funding to support my students (including summer).
 However, as a fallback, the department can also cover the student with TA-ship.
-#link("https://github.com/dynaroars/dynaroars.github.io/wiki/About-GMU")[CS\@GMU] is #emph[very good] at providing PhD students TA-ships.
+#link("https://realgmucs.github.io/stats")[CS\@GMU] is #emph[very good] at providing PhD students TA-ships.
 
 I also encourage students to apply for fellowships.
 I will help them with the applications (e.g., give feedback on your statements and provide LORs).
@@ -346,7 +346,7 @@ When a student wins a fellowship or an award, it's also a win for me and the ent
 == What does the quals process look like?
 
 The department has a very specific guideline and timeline that students need to follow for the comprehensive exam.
-It's quite straightforward and the student needs to write a paper describing the research area and problem they want to work on and present that paper.
+It's straightforward and the student needs to write a paper describing the research area and problem they want to work on and present that paper.
 
 I typically won't let my students go for the quals without having a paper submitted.
 While the exam is mainly a formality, it is also a checkpoint to make sure the student is on track and has a clear research direction (in which a paper submission is a good indicator of that).
@@ -385,7 +385,7 @@ As mentioned, I will unlikely work on something that I am not interested in.
 So if you want to work with me, you need to be interested in #link("https://roars.dev")[my research areas].
 
 == I'm interested in working with you. Do you think I'd have a good chance of working with you if I come to your university?
-The common way for me to know you (and vice versa) is taking my classes, standing out, and impressing me.
+The common way for me to know you, and vice versa, is taking my classes, standing out, and impressing me.
 I recruited several students (e.g., Linhan, Guolong, and Didier) from my classes that way.
 
 = Co-Advising & External Collaborations
@@ -460,15 +460,14 @@ I also encourage you and other lab members to go to local conferences or worksho
 I often send my students to the annual, week-long Formal Techniques Summer School in San Francisco (CA).
 
 For full disclosure, I am not a big fan of attending conferences.
-I think they are useful but I am just not into traveling.
+I think they are useful but I am just not into traveling or try to networking with people I don't know.
 I would rather stay at home and play with my kids and work on my research.
 But this is just me and I wholeheartedly support my students to attend conferences.
 
-== How many conferences are students expected to target a year? \[remember pubs != submissions\]
+== How many conferences are students expected to target a year? \[remember pubs != submissions\] <sec:pubs>
 
 On the second year, I expect my students to #emph[submit] #emph[one] first-author paper to a #emph[major] #link("https://roars.dev/csconfs")[conference] each year (e.g., ICSE, FSE, ASE, ISSTA, PLDI, OOPSLA, CAV).
 On the third year onwards, I expect you to #emph[submit] at least #emph[two] papers each year.
-
 Essentially, I expect you to get some results to present after a full year of research, and continue and improve that pace throughout your PhD.
 
 My students often publish more than what was mentioned above, e.g., KimHao published 9 papers as an undergrad, Guolong published 8 papers during his PhD, and Hai already has 7 papers by his 4th year, etc.
@@ -667,19 +666,19 @@ It's worth noting that I apply the same thing for the kids in my Chess club: the
 
 == What is your stand on AI usage in research? \[e.g., ChatGPT, Claude, etc.\]
 
-I leverage AI #emph[extensively] in my research, and I encourage my students to do so as well! It is a great tool that allows us to focus on the more important and creative parts of research, rather than spending time on tedious and repetitive tasks (e.g., writing code, debugging). I have "vibe-coded" multiple projects, including #link("https://cspicks.roars.dev")[CSPicks] and #link("https://vietprofs.roars.dev")[VietProfs], which would not have been possible without AI tools. Thus, not only do I encourage my students, I also expect them to know and use AI tools to help with their research and productivity.
+I integrate AI #emph[extensively] into my research, and I encourage my students to do so as well! It is a great tool that allows us to focus on the more important and creative parts of research, rather than spending time on tedious and repetitive tasks (e.g., writing scripts to run experiments, debugging). I have "vibe-coded" multiple projects, including #link("https://cspicks.roars.dev")[CSPicks] and #link("https://vietprofs.roars.dev")[VietProfs], which would not have been possible without AI tools. Thus, not only do I encourage my students, I also expect them to know and use AI tools to help with their research and productivity.
 
 However, I expect my students to understand the work and be responsible for it (e.g., so don't just use a couple of prompts and done).
 I #emph[do not] expect them to read AI generated code, I expect them to iteratively interact with AI to understand how things work (the algorithm or technique behind the code). As example, for #strong[CSPicks] or #strong[VietProfs], while I don't read the AI-generated code, it took me hundreds of iterations with AI to get things designed and built to my liking, and even then I still actively work on improving them and adding new features.
 
-Furthermore, as AI often makes mistakes and we cannot manually check all the code or proofs, we should aim to formalize our implementation and specifications and use a proof assistant like Lean to check the correctness of the code and proofs (nothing is guarantee as Lean implementation itself can be buggy, but at least it is a lot more reliable than humans).
+Furthermore, as AI often makes mistakes and we cannot manually check all the code or proofs, we should aim to formalize our implementation and specifications and use a proof assistant like Lean to check the correctness of the code and proofs (nothing is guaranteed as Lean implementation itself can be buggy, but at least it is a lot more reliable than human!).
 
-Similarly, while I encourage students to use AI to help with writing, I expect them to actually read and understand the content and #emph[rewrite] to make it "theirs" (and also to avoid the AI generic flowering writing style).
+Compared to coding, I do not use AI for writing as much, mostly to help with ideas and structure, but I often rewrite the content in my own words.  Thus, while I encourage students to use AI to help with writing, I expect them to actually read and understand the content and #emph[rewrite] to make it "theirs" (and also to avoid the AI generic flowering writing style).
 For my own writing,  after each paragraph drafted with AI, I put a *#raw("sorry")* (a Lean thing indicating something is not yet fully done) to 
 remind me that I still need to work through that paragraph: reread it carefully, edit it, and usually rewrite pretty much the whole thing in my own words.
 Only after doing that do I remove the #raw("sorry") for that paragraph.
 
-Interesting, I use AI extensively these days, but at the same time try to find time to "retreat" from AI and do some "old-school" research, e.g., reading on printed papers, writing in pure Emacs without any AI assistance, and actually learning new programming languages like Lean by manually writing code and compile them.
+Interestingly, I use AI extensively these days, but at the same time try to find time to "retreat" from AI and do some "old-school" research, e.g., reading on printed papers, writing in pure Emacs without any AI assistance, and actually learning new programming languages like Lean by manually writing code and compile them.
 
 = Related Resources
 

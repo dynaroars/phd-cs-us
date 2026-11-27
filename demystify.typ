@@ -3721,7 +3721,7 @@ In general, tipping on the pre-tax amount is common and the logic is that tax is
 
 When researching where to do a CS PhD, many students use rankings like the U.S. News & World Report. However, these widely publicized rankings are often criticized by CS researchers (e.g., @fig:csrankings-quote) for their lack of transparency and relevance. In contrast, data-driven open source ones such as CSRankings.org are increasingly used by faculty and PhD students to assess the true research strengths of CS depts. 
 
-#caution-block[*Unpopular opinion:* Ranking matters, but usually not in the way applicants think. A famous university name can open doors, and a large department can provide more advisors, collaborators, and escape routes if one lab fails. But a university-wide number cannot tell you whether anybody there works on your problem, has funding, or wants another student. Treat ranking as evidence, not a command.]
+//#caution-block[*Unpopular opinion:* Ranking matters, but usually not in the way applicants think. A famous university name can open doors, and a large department can provide more advisors, collaborators, and escape routes if one lab fails. But a university-wide number cannot tell you whether anybody there works on your problem, has funding, or wants another student. Treat ranking as evidence, not a command.]
 
 #figure(
 align(left)[
