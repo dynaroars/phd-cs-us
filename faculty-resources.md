@@ -12,6 +12,7 @@ Resources for starting a faculty position, building a research group, advising a
 - [Faculty mentoring](https://www.duffield.cornell.edu/faculty-resources/mentoring/) — Cornell Engineering’s example of a mentoring program for new faculty. (updated Jan 2026)
 - [Career Mentoring Workshop](https://cra.org/career-mentoring-workshop/) — CRA’s workshop for future and early-career computing faculty. (updated Nov 2025)
 - [Making the Right Moves](https://www.hhmi.org/sites/default/files/2023-10/making-the-right-moves-second-edition.pdf) — HHMI and Burroughs Wellcome Fund’s handbook on scientific management for postdocs and new faculty. (updated Dec 2006)
+- [The CS Assistant Professor Handbook](https://vijay03.github.io/asstprofbook/) — Vijay Chidambaram’s book on the first years as a computer science assistant professor, from setting up a group to funding, teaching, and tenure.
 
 ## Building a lab and mentoring
 
@@ -69,6 +70,7 @@ Resources for starting a faculty position, building a research group, advising a
 
 - [A Short Guide to the Tenure Process](https://facultydevelopment.cornell.edu/faculty-development/tenure-and-promotion/a-short-guide-to-the-tenure-process/) and [Cornell’s faculty handbook on tenure-track promotions](https://deanoffaculty.cornell.edu/policies-procedures/faculty-handbook/4-tenure-track-promotions-2/) — institutional examples for understanding review and dossier expectations. (updated Aug 2026)
 - [Hiring and Promotion Guidance for Computing Researchers](https://cra.org/wp-content/uploads/2025/09/Hiring-and-Promotion-Guidance-for-Computing-Researchers.pdf) — CRA’s 2025 update on evaluating research, teaching, mentoring, service, and external letters across universities and labs; use it to explain your contributions in a promotion case. (updated Sep 2025)
+- [Tenure-Track Handbook](https://facultyresources.fas.harvard.edu/sites/g/files/omnuum1751/files/2025-04/FINAL%20AY24-25%20Tenure%20Track%20Handbook.pdf) — Harvard Faculty of Arts and Sciences’ AY 2024–25 handbook on the tenure-track ladder, reviews, and promotion; Harvard-specific, useful as a detailed example of what a review covers. (updated Apr 2025)
 - [Evaluating Scholarship in Hiring, Tenure, and Promotion](https://cra.org/wp-content/uploads/2016/02/BP_Memo.pdf) — CRA’s memo on evaluating the quality and impact of computing scholarship. (updated Feb 2016)
 - [Promotion and Tenure of Interdisciplinary Faculty](https://archive.cra.org/reports/promotion_tenure.html) — CRA’s guidance on recognizing work that crosses departmental boundaries.
 

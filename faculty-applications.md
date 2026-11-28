@@ -27,6 +27,7 @@ A guide to the computer science faculty job market in the United States. Start b
 - [The academic job search for computer scientists in ten questions](https://docs.google.com/document/d/e/2PACX-1vSeOnC_QdaJVc3OuuMfDHVlk3QotUxvghytRFaDsrdA0uovD5axQjp8kJCM4Evu1cCf9Hg_u_Stabu1/pub) — Nicolas Papernot and Elissa Redmiles.
 - [Academic job search advice](https://matt.might.net/articles/advice-for-academic-job-hunt/) — Matt Might.
 - [Guide for the CS and IS Tenure-Track Job Market](https://shomir.net/tt_job_guide.html) — Shomir Wilson on timelines, applications, interviews, and offers.
+- [Computer Science Graduate Job and Interview Guide](https://csguides.github.io/grad-job-guide/) — Kevin Angstadt, Wes Weimer, and collaborators on searches for research university, liberal arts college, and industrial research positions, with example application materials.
 - [PhD Academic Job Search](https://career.engin.umich.edu/phd-academic-job-search/) — Michigan Engineering’s timeline and job search resources.
 - [The Academic Job Search: My Experience, Retrospective, and Advice](https://rohany.github.io/blog/job-search/) — Rohan Yadav’s account of a 2025–2026 tenure-track search in programming languages and high-performance computing, from applications through video and campus interviews.
 
