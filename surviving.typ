@@ -347,44 +347,36 @@ The angelfish on the cover is a nod to my aquarium at home (and to O'Reilly anim
 // ============================================================================
 #heading(numbering: none)[Preface]
 
-Getting admitted into a CS PhD program is hard, so first of all, congratulations on making it in.
-That said, admissions is actually the straightforward part: you had fixed deadlines, a list of documents to upload, and a clear yes-or-no decision. #sorry
+Getting admitted into a CS PhD program is hard, so first of all, _congratulations on getting in_.
+That said, admissions is actually the straightforward part: had fixed deadlines, a list of documents to upload, and a clear yes-or-no decision after half a year of waiting.
 
-The PhD itself is much messier.
-There is no syllabus for becoming a researcher, the milestones are vague, grades stop mattering almost immediately, and every advisor has their own quirks and expectations. #sorry
+The PhD itself is much _messier_.
+There is no guidelines for becoming a researcher, the milestones---if there are any---are vague, high GPA doesn't matter, and you get pissed off when someone ask when you will graduate. In addition, you're in a long term "marriage" with your advisor, who will more likely have a lot of expectations on how you work, but little guidance on how to actually do it.
+
 
 Earlier, I wrote #link(demystifyurl)[_Demystifying PhD Admissions in Computer Science_] to explain how admissions work, and I wrote the #link(advisingurl)[_ROARS Lab Advising Guide_] so my own students would know what they were getting into before joining my lab.
 Still, every year I see current PhD students---in my group and elsewhere---run into the same avoidable problems: #sorry
 
-- Spending their first year chasing a 4.0 GPA while making no progress in research. #sorry
-- Reading papers for six months and convincing themselves every good idea is already taken. #sorry
-- Waiting for their advisor to assign weekly tasks, or hiding a new idea because they think their advisor will shoot it down. #sorry
-- Panicking over bad reviews, playing "find the champion and defector" during rebuttals, or submitting half-baked papers "just to get feedback." #sorry
-- Either avoiding AI tools completely, or using them blindly without understanding the code or rewriting the generic AI prose. #sorry
-- Taking a full-time industry job while #gls("ABD") and never finishing their dissertation. #sorry
+- Chasing a high GPA because it is easier than doing research.
+- Immerse themselves into related work as a way to avoid doing the actual research, or spending a year on a "survey" paper that nobody will read.
+- Waiting for their advisor to assign weekly tasks, or expect clear guidance on how to do research.
+- Complaining and getting frustrated about their papers getting rejected, or their reviews being "unfair", playing "find the champion and defector" during rebuttals, or submitting half-baked papers "just to get feedback."
+- Spending most of their time trying to get internships to help get a job instead of focusing on research and publications.
+- And in recent years, using AI/LLM blindly without mastering the underlying research problem, which leads to wasted time, hallucinated results, and even academic misconduct.
 
-There are already plenty of good essays on grad school (we collect the best ones in #link("https://github.com/dynaroars/phd-cs-us/blob/main/current-students.md")[our companion resource list] and at the end of each chapter).
-Most of those classics were written between 1986 and 2019, though---before LLMs changed how we write code and papers, before big CS conferences grew to thousands of submissions with noisy reviewing, and before Discord and open-source GitHub repos became standard lab life.
-So this book is my attempt to put down practical, current advice for PhD students in U.S. CS programs. #sorry
+
+There are already plenty of good essays on grad school (e.g., in #link("https://github.com/dynaroars/phd-cs-us/blob/main/current-students.md")[our companion resource list].
+However, most of those classics were written between 1986 and 2019, though---before LLMs changed how we write code and papers, before big CS conferences grew to thousands of submissions with noisy reviewing, and before Discord and open-source GitHub repos became standard lab life.
+So this book is my attempt to put down practical, current advice for PhD students in U.S. CS programs.
 
 #paragraph[Note on Tone (and My Bias)][
-  If you have read my #link(advisingurl)[advising guide], you already know my style: this book is *blunt, subjective, and opinionated* (see the #link(<sec:disclaimer>)[Disclaimer]).
-  Overly polite, neutral academic advice usually hedges so much that it isn't actually useful when you need to make a decision. #sorry
+  If you have read my #link(advisingurl)[advising guide], you already know my style: *blunt, subjective, and opinionated* (see the #link(<sec:disclaimer>)[Disclaimer]).
+    Overly polite, neutral academic advice that tries to please a broad audience often ends up being generic and useless. So I will tell you what I actually think, even if it is uncomfortable or controversial.
 
-  At the same time, my view comes from my own background: I am a tenured CS professor in Software Engineering, Programming Languages, Formal Methods, and ML Verification; I am a hands-off advisor; and I was a first-generation PhD student at UNM and a postdoc at UMD.
-  When something is specifically how we do things in my lab, I put it in a *From the ROARS Lab* box.
-  When other advisors or subfields (e.g., hands-on pre-tenure faculty, theory groups, or big systems labs) legitimately work differently, I call that out in a *Different Advisor, Different Lab* box. #sorry
+    At the same time, my view comes from my own background: I am a tenured CS professor in Software Engineering, Programming Languages, Formal Methods, and ML Verification; I am a hands-off advisor; and I was a first-generation PhD student at UNM and a postdoc at UMD. Thus, they are not universal truths (which I don't believe exist), and I encourage you to seek other perspectives as well (which in this book I will try to point you to).
 ]
 
-#paragraph[How to Use This Book][
-  You don't need to read this from start to finish. Jump to whatever you are dealing with right now:
-  - *Just started?* Read @ch:unwritten-game, @ch:advisor, and @ch:break-first. #sorry
-  - *Hit a real crisis (advisor leaving, failed quals, scooped, thinking of mastering out)?* Go straight to @ch:crisis. #sorry
-  - *Designing experiments, collaborating outside your lab, or using AI?* Check @ch:evaluation, @ch:collaboration, and @ch:ai-research. #sorry
-  - *Working on a paper or dealing with reviews?* Jump to @ch:writing and @ch:rebuttals. #sorry
-  - *Preparing for quals, your dissertation, funding, or graduation?* Check @ch:quals, @ch:dissertation, @ch:money-grants, and @ch:careers. #sorry
-  - *Want quick blunt answers or email templates?* Flip to @ch:faq and @app:templates. #sorry
-]
+
 
 // ============================================================================
 // Main Matter
